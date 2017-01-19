@@ -18,41 +18,89 @@ body,html{
 
 a{color:white;}
 
-h1{font-family:Dyno;}	
+h1{	
+	font-family:Dyno;
+	color : #ea5c0d;
+	margin-bottom:1.5%;
+	margin-left:10%;
+	font-size:75px;}	
+	
 h2{font-family:Dyno;}
-h3{font-family:Dyno;}
+
+h3{font-family:Dyno;	}
+	.h31{margin-left:10%;}
+	.h32{margin-left:28%;}
+	.h33{margin-left:33%;}
+	
 h4{font-family:Dyno;}
 
 
-.slider{width:100%;}
 
-.carouselText {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    color: #fff;
-    text-align: center;
-    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
-      -webkit-transform: translate3d(-50%,-50%,0);
-         -moz-transform: translate3d(-50%,-50%,0);
-          -ms-transform: translate3d(-50%,-50%,0);
-           -o-transform: translate3d(-50%,-50%,0);
-              transform: translate3d(-50%,-50%,0);
+.start{
+	margin-top:7%;
+	margin-bottom:7%;}
+
+.row.mar{
+	padding-top:5%;
+	padding-bottom:5%;
+	background-color:#505050;
 }
 
-.fade-carousel .carousel-inner .item .carouselText {
-    opacity: 0;
-    -webkit-transition: 2s all ease-in-out .1s;
-       -moz-transition: 2s all ease-in-out .1s; 
-        -ms-transition: 2s all ease-in-out .1s; 
-         -o-transition: 2s all ease-in-out .1s; 
-            transition: 2s all ease-in-out .1s; 
+.row.mar2{
+	padding-top:5%;
+	padding-bottom:5%;
+	background-color:#333333;
 }
-.fade-carousel .carousel-inner .item.active .carouselText{
-    opacity: 1;
-    -webkit-transition: 2s all ease-in-out .1s;
-       -moz-transition: 2s all ease-in-out .1s; 
-        -ms-transition: 2s all ease-in-out .1s; 
-         -o-transition: 2s all ease-in-out .1s; 
-            transition: 2s all ease-in-out .1s;    
+
+.img-circle.img-responsive.box{
+	box-shadow: 0 0 0 5px #f7af3e;
+	height:300px !important;
+	width:300px !important;}
+
+	
+
+@media screen and (max-width: 800px) {
+	
+.img-circle.img-responsive.box{
+	box-shadow: 0 0 0 5px #f7af3e;
+	height:300px !important;
+	width:300px !important;
+	margin-left:12%;
 }
+h1{	
+	font-family:Dyno;
+	color : #ea5c0d;
+	margin-bottom:1.5%;
+	margin-left:10%;
+	font-size:35px;}	
+
+
+.rec{margin-top:-8px;}
+
+	.h31{margin-left:25%;}
+	.h32{margin-left:43%;}
+	.h33{margin-left:47%;}
+
+.start{
+margin-top:15%;
+margin-bottom:15%;}
+
+iframe{margin-left:8%;}
+
+h2{margin-left:15%;}
+
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+

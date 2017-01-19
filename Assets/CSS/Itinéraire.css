@@ -1,0 +1,174 @@
+ h1{
+	font-family:Dyno; 
+	background-image:url("../photo/titre2.png");
+	background-repeat:no-repeat;
+	padding-top:1px;
+	padding-bottom:25px;
+	padding-left:65px;
+	margin-left: 2%;
+	}
+
+ html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+#map {
+		position:relative;
+        float: left;
+        height: 90%;
+      }
+#right-panel {
+	position:relative;
+  font-family: Cicle Fina;
+  line-height: 30px;
+  padding-left: 10px;
+ 
+}
+
+#right-panel select, #right-panel input {
+  font-size: 15px;
+   color:black;
+}
+
+#right-panel select {
+  width: 100%;
+}
+
+#right-panel i {
+  font-size: 12px;
+}
+
+#right-panel {
+	margin: 20px;
+    border-width: 2px;
+    width: 20%;
+	float: left;
+	text-align: left;
+	padding-top: 20px;
+    }
+	#directions-panel {
+    margin-top: 20px;
+    padding: 10px;
+    }
+@font-face {
+    font-family:Dyno;
+    src: url("../Fonts/Dyno Regular.ttf");
+}
+
+@font-face {
+    font-family:Cicle Fina;
+    src: url("../Fonts/Cicle Fina.ttf");
+}
+
+body{
+	background-color:#333333;
+	color:white;
+	font-family:Cicle Fina;
+}
+
+a{color:#fff;}
+
+.modal{color: black;}
+
+.img-responsive.logo{position:relative;top:0;}
+	
+.nav.navbar-nav {
+	margin-top:10px;
+	font-size: 120%;
+	}
+.navbar-header > a {
+	margin-top:10px;
+	font-size: 120%;
+	}
+	
+.footer {
+	background: #505050;
+	height: auto;
+	padding-bottom: 30px;
+	position: block;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+}
+
+.footer p {
+	margin: 0;
+}
+
+.footer ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+}
+
+.responsive { margin-top:0px;}
+
+.drapeau1{
+	height:30px !important;
+	width:45px !important;
+	position: absolute;
+    right: 20px;
+
+	}
+
+@media screen and (max-width: 800px) {
+  .logo{
+	margin-left:-4%;
+	margin-top:-2%;
+	}
+	
+.nav.navbar-nav {
+	margin-top:0;
+	font-size: 120%;
+	}
+.navbar-header > a {
+	margin-top:0;
+	font-size: 120%;
+	}
+
+.responsive{margin-top:70px;}
+
+.footer {
+	
+	background: 0;
+	height: 300px;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-bottom: 0;
+	border-top: 0;
+	opacity:;
+}
+#right-panel {
+	margin: 0;
+    border-width: 2px;
+    width: 20%;
+	float: left;
+	text-align: left;
+	padding-top: 0px;
+    }
+	#directions-panel {
+    margin-top: 0px;
+    padding: 0px;
+    }
+	.drapeau1{
+	height:30px !important;
+	width:45px !important;
+	position: absolute;
+    right: 20px;
+	top:250px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+	  
+	  
+	  

@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>test</title>
+<html>
+  <head>
+    <title>Itinéraires personnalisables</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="..\Assets\bootstrap-3.3.7-dist\css\bootstrap.css" rel="stylesheet">
-	<link href="..\Assets\CSS\CSSAcceuil.css" rel="stylesheet">  
+	<link href="..\Assets\CSS\CSSAcceuil.css" rel="stylesheet">	
+	<link href="..\Assets\CSS\commun.css" rel="stylesheet"> 
+	<link rel="icon" type="image/png" href="../Assets/photo/miniature.png" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
-  </head>	
-   <body>
-	
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>  
+  </head>
+  <body>
+  
 <div class="row">
+	<div class="container-fluid">	<!--responsivité de toute la page -->
 		<nav class="navbar navbar-inverse"> <!-- classe  bootstrap pour le menu  -->
 			<div class="container-fluid">
 				<div class="navbar-header">	<!-- partie reponsive téléphone -->
@@ -21,7 +24,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>                        
 					</button>
-					<a class="navbar-brand" href="Acceuil.html">Accueil</a>
+					<a class="" href="Acceuil.html"><img src="../Assets/photo/logoMCN.png" class="img-responsive logo"></a>
 				</div> <!-- fin responsive -->
 				<div class="collapse navbar-collapse" id="myNavbar"> <!-- partie ecran d'ordinateur et tablette  -->
 					<ul class="nav navbar-nav">
@@ -42,8 +45,8 @@
 						<li class="dropdown"> 
 							<a data-toggle="dropdown" href="#">Les balades<b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Les itinéraires</a></li>
-								<li><a href="#">Les points intérréssants</a></li>
+								<li><a href="Itinéraire.html">Les itinéraires</a></li>
+								<li><a href="Point.html">Les points intérréssants</a></li>
 								<li><a href="Galerie.html">Galerie</a></li>
 							</ul>
 						</li>
@@ -63,52 +66,50 @@
 								<li><a href="equipe.html">Le projet & l'équipe</a></li>
 							</ul>
 						</li>
+						
+						<a href="../page html eng/Acceuil_eng.html"><img src="../Assets/photo/gb_drapeau.gif" class="drapeau1"></a>
+						
 					</ul>
-					<img src="../Assets/photo/logoMCN.png" class="logo">
+					
 				</div> <!-- fin ecran -->
 			 </div>
 		</nav> <!-- fin bar de navigation  -->
-		<section class="slider">
-		<div id="carousel-example" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators">
-				<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-				<li data-target="#carousel-example" data-slide-to="1"></li>
-				<li data-target="#carousel-example" data-slide-to="2"></li>
-			</ol>
-
-			<div class="carousel-inner">
-				<div class="item active">
-				<a href="#"><img src="../photo/test3.png" /></a>
-					<div class="carouselText">
-						<hgroup>
-							<h1>Tittre 1</h1>        
-						</hgroup>
-					</div>
-				</div>
-				<div class="item">
-				<a href="#"><img src="../photo/test3.png" /></a>
-					<div class="carouselText">
-						<hgroup>
-							<h1>Tittre 2</h1>        
-						</hgroup>        
-					</div>
-				</div>
-				<div class="item">
-					<a href="#"><img src="../photo/test3.png" /></a>
-					<div class="carouselText">
-						<hgroup>
-							<h1>Tittre 3</h1>        
-						</hgroup>        
-					</div>
-				</div>
+	
+		<div class="start">
+			<h1>L'île saint Louis</h1>
+			<h1 class="rec"> Un mystère </h1>
+			<h1 class="rec">au coeur de la ville Lumiere </h1>
+		</div>
+	
+	
+		<div class="row mar">
+			<div class="col-sm-offset-3 col-sm-3">
+				<img src="../Assets/photo/minAc1.jpg" class="img-circle img-responsive box" />
+				<h3 class="h31">Itinéraire personalisé</h3>
 			</div>
-
-			<a class="left carousel-control" href="#carousel-example" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-			<a class="right carousel-control" href="#carousel-example" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+			
+			<div class="col-sm-3">
+				<img src="../Assets/photo/minAc2.jpg" class="img-circle img-responsive box" />
+				<h3 class="h32">Timeline</h3>
+			</div>
+			
+			<div class="col-sm-3">
+				<img src="../Assets/photo/minAC3.jpg" class="img-circle img-responsive box" />
+				<h3 class="h33">A voir</h3>
+			</div>
+		</div>
+		
+		<div class="row mar2">
+			<div class="col-sm-offset-1 col-sm-5">
+				<iframe></iframe>
+			</div>
+			<div class="col-sm-offset-2 col-sm-3">
+				<h2> Un appercu de l'île? </h2>
+			</div>
 		</div>
 	</div>
-</section>
-	<div class="footer" id="footer" style="margin-top:50px;">
+
+<div class="footer" id="footer" style="margin-top:50px;">
         <div class="container">
             <div class="row">
 			 <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6">

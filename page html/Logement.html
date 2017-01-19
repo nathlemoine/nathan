@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>Ponts</title>
+<html>
+  <head>
+    <title>Logement sur l'île</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="..\Assets\bootstrap-3.3.7-dist\css\bootstrap.css" rel="stylesheet">
-	<link href="..\Assets\CSS\Logement.css" rel="stylesheet">  
+	<link href="..\Assets\CSS\Logement.css" rel="stylesheet">	
 	<link href="..\Assets\CSS\commun.css" rel="stylesheet"> 
 	<link rel="icon" type="image/png" href="../Assets/photo/miniature.png" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
-  </head>	
-
- <body>
-<div class="container-fluid">	<!--responsivité de toute la page -->
-	<div class="row">
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>  
+  </head>
+  <body>
+<div class="row">
+	<div class="container-fluid">	<!--responsivité de toute la page -->
 		<nav class="navbar navbar-inverse"> <!-- classe  bootstrap pour le menu  -->
 			<div class="container-fluid">
 				<div class="navbar-header">	<!-- partie reponsive téléphone -->
@@ -24,7 +23,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>                        
 					</button>
-					<a class="navbar-brand" href="Acceuil.html">Accueil</a>
+					<a class="" href="Acceuil.html"><img src="../Assets/photo/logoMCN.png" class="img-responsive logo"></a>
 				</div> <!-- fin responsive -->
 				<div class="collapse navbar-collapse" id="myNavbar"> <!-- partie ecran d'ordinateur et tablette  -->
 					<ul class="nav navbar-nav">
@@ -45,8 +44,8 @@
 						<li class="dropdown"> 
 							<a data-toggle="dropdown" href="#">Les balades<b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Les itinéraires</a></li>
-								<li><a href="#">Les points intérréssants</a></li>
+								<li><a href="Itinéraire.html">Les itinéraires</a></li>
+								<li><a href="Point.html">Les points intérréssants</a></li>
 								<li><a href="Galerie.html">Galerie</a></li>
 							</ul>
 						</li>
@@ -66,35 +65,38 @@
 								<li><a href="equipe.html">Le projet & l'équipe</a></li>
 							</ul>
 						</li>
+						
+						<a href="../page html eng/Acceuil_eng.html"><img src="../Assets/photo/gb_drapeau.gif" class="drapeau1"></a>
+						
 					</ul>
-					<img src="../Assets/photo/logoMCN.png" class="logo">
+					
 				</div> <!-- fin ecran -->
 			 </div>
 		</nav> <!-- fin bar de navigation  -->
-	</div>
+	
 	<h1>Se loger sur l'île</h1>
 		
 		<div class="marge"></div>
-		<div class="row">
-			<div class="col-lg-3 hotel">
+		
+			<div class="col-sm-3  hotel">
 				<div class="col-xs-12">
-					<img  src="..\Assets\photo\test2.png" id="image" class="img-responsive" />
+					<img  src="..\Assets\photo\test2.png" id="image" class="img-responsive v2" />
 				</div>
 				
 				<div class="col-xs-12">
-				<h3 class="th3">Hotel 1</h3>
+				<h3 class="th3">Hôtel du Jeu de Paume</h3>
 				<br>
-					<p> Description </p>
+					<p> L'Hôtel Du Jeu De Paume est situé sur la célèbre Ile Saint-Louis, à 5 minutes à pied de la cathédrale Notre-Dame. </p>
 					<br>
 					<p> Adresse </p>
 				</div>
-				<div class="col-xs-offset-6 col-xs-6">
+				
 				<button class="btn btn-warning decal" href=""> Se rendre sur le site </button>
-				</div>
+			
 			</div>
+			<div class="marge"></div>
 		
-		
-			<div class="col-lg-3 hotel">
+			<div class="col-sm-3  hotel">
 				<div class="col-xs-12">
 					<img  src="..\Assets\photo\test2.png" id="image" class="img-responsive" />
 				</div>
@@ -106,13 +108,13 @@
 					<br>
 					<p> Adresse </p>
 				</div>
-				<div class="col-xs-offset-6 col-xs-6">
+				
 				<button class="btn btn-warning decal" href=""> Se rendre sur le site </button>
-				</div>
+				
 			</div>
+			<div class="marge"></div>
 		
-		
-			<div class="col-lg-3 hotel">
+			<div class="col-sm-3 hotel">
 				<div class="col-xs-12">
 					<img  src="..\Assets\photo\test2.png" id="image" class="img-responsive" />
 				</div>
@@ -124,13 +126,14 @@
 					<br>
 					<p> Adresse </p>
 				</div>
-				<div class="col-xs-offset-6 col-xs-6">
+				
 				<button class="btn btn-warning decal" href=""> Se rendre sur le site </button>
-				</div>
+			
 			</div>
-		</div>
+			<div class="marge"></div>
 		
 		<div class="marge"></div>
+	</div>
 </div>
 	
 	
@@ -204,5 +207,6 @@
             </div>
         </div>
     </div>
+	
  </body>
  </html>

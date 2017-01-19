@@ -1,8 +1,10 @@
+
+
 h1{
 	font-family:Dyno; 
 	background-image:url("../photo/titre2.png");
 	background-repeat:no-repeat;
-	padding-top:0;
+	padding-top:2px;
 	padding-bottom:25px;
 	padding-left:65px;
 	}
@@ -45,10 +47,28 @@ h1{
 }
 .tab-pane .tab-inner { padding: 10px 0 20px; }
 
+.portable {
+	position:absolute;
+	left:-999em;
+}
+
+#image{
+	height:250px; 
+	width:250px; 
+	box-shadow: 0 0 0 5px #ea5c0d;
+}
 
 @media screen and (max-width: 800px) {
 
+	.nav.nav-justified.inline > li{display:inline-block;}
 
-.nav.nav-justified.inline > li{display:inline-block;}
+	.ordi{
+		position:absolute;
+		left:-999em;
+	}
+	.portable {
+		position:block;
+		left:0;
+	}
 
 }

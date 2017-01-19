@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Les Quais</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="..\Assets\bootstrap-3.3.7-dist\css\bootstrap.css" rel="stylesheet">
+	<link href="..\Assets\CSS\Quai.css" rel="stylesheet">  
+	<link href="..\Assets\CSS\commun.css" rel="stylesheet"> 
+	<link rel="icon" type="image/png" href="../photo/miniature.png" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
+  </head>	
+
+ <body>
+<div class="row">
+	<div class="container-fluid">	<!--responsivité de toute la page -->
+		<nav class="navbar navbar-inverse"> <!-- classe  bootstrap pour le menu  -->
+			<div class="container-fluid">
+				<div class="navbar-header">	<!-- partie reponsive téléphone -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+					<a class="" href="Acceuil_eng.html"><img src="../Assets/photo/logoMCN.png" class="img-responsive logo"></a>
+				</div> <!-- fin responsive -->
+				<div class="collapse navbar-collapse" id="myNavbar"> <!-- partie ecran d'ordinateur et tablette  -->
+					<ul class="nav navbar-nav">
+						<li> 
+							<a href="timeline1_eng.html">Timeline</a>	
+						</li>
+						<li> 
+							<a href="#">Event</a>	
+						</li>
+						<li class="dropdown"> 
+							<a data-toggle="dropdown" href="#">Architecture<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="Ponts_eng.html">Bridges</a></li>
+								<li><a href="Monument_eng.html">Monuments</a></li>
+								<li><a href="Quai_eng.html">Docks</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"> 
+							<a data-toggle="dropdown" href="#">Walks in the island<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="Itinéraire_eng.html">Routes</a></li>
+								<li><a href="Point_eng.html">Interesting spots</a></li>
+								<li><a href="Galerie_eng.html">Galery</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"> 
+							<a data-toggle="dropdown" href="#">Practicals informations<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="Transport_eng.html">Transports</a></li>
+								<li><a href="Nourriture_eng.html"> Eating out</a></li>
+								<li><a href="Logement_eng.html">Where to stay</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"> 
+							<a data-toggle="dropdown" href="#">About us<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="partenaire_eng.html">Partnerships</a></li>
+								<li><a href="equipe_eng.html"> Our project & the team</a></li>
+							</ul>
+						</li>
+						
+						<a href="../page html/Quai.html" ><img src="../Assets/photo/fr_drapeau.png" class="drapeau1"></a>
+						
+					</ul>
+					
+				</div> <!-- fin ecran -->
+			 </div>
+		</nav> <!-- fin bar de navigation  -->
+		
+		<h1>The docks</h1>
+		<div class="row">
+			<div class="ordi">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " role="tabpanel"><!-- onglet "tabs" -->
+					<ul class="nav nav-justified " id="nav-tabs" role="tablist">
+						<li role="presentation" class="active">
+							<a href="#Quai1" aria-controls="#Quai1" role="tab" data-toggle="tab">
+							<img class="img-circle custom" src="#" />Anjou Dock 
+							</a>
+						</li>
+						<li role="presentation" class="">
+							<a href="##Quai2" aria-controls="#Quai2" role="tab" data-toggle="tab">
+							<img class="img-circle" src="#" />Béthune Dock     
+							</a>	
+						</li>
+						<li role="presentation" class="">
+							<a href="#Quai3" aria-controls="#Quai3" role="tab" data-toggle="tab">
+							<img class="img-circle" src="#" />Bourbon Dock     
+							</a>
+						</li>
+						<li role="presentation" class="">
+							<a href="#Quai4" aria-controls="#Quai4" role="tab" data-toggle="tab">
+							<img class="img-circle" src="#" />Orléans Dock                  
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="portable">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " role="tabpanel"><!-- onglet "tabs" -->
+					<ul class="nav nav-justified inline" id="nav-tabs" role="tablist">
+						<li role="presentation" class="active">
+							<a href="#Quai1" aria-controls="#Quai1" role="tab" data-toggle="tab">
+							Anjou Dock   
+							</a>
+						</li>
+						<li role="presentation" class="">
+							<a href="##Quai2" aria-controls="#Quai2" role="tab" data-toggle="tab">
+							Béthune Dock  
+							</a>	
+						</li>
+						<li role="presentation" class="">
+							<a href="#Quai3" aria-controls="#Quai3" role="tab" data-toggle="tab">
+							Bourbon	Dock					
+							</a>
+						</li>
+						<li role="presentation" class="">
+							<a href="#Quai4" aria-controls="#Quai4" role="tab" data-toggle="tab">
+							Orléans  Dock 
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="responsive">
+				<div class="col-xs-12 col-xs-12"><!-- Contenue des onglet-->
+					<div class="tab-content" id="tabs-collapse">            
+						<div role="tabpanel" class="tab-pane fade in active" id="Quai1">
+							<div class="tab-inner"> 												
+								<div class="col-lg-9 col-xs-12">
+									<h3>Quai d'Anjou </h3><p class="">
+										Located between the Sully bridge and the Pont-Marie, 320m long, the Quai d'Anjou faces the former port of Les Célestins Saint-Paul.
+										This wharf was built during the subdivision of the island by Christophe Marie, Le Regrattier and Poulletier, between 1615 and 1650.
+										Near the Pont Sully is the Hotel Lambert, built by the architect Louis Le Vau between 1642 and 1644. 
+										</p>
+									<button data-toggle="modal" href="#1" class="btn btn-warning" style="margin-left:15px;margin-bottom:20px;">More informations</button>
+								</div>
+								<div class="col-lg-3 col-xs-12"><img  src="#" style="height:250px; width:250px; box-shadow: 0 0 0 5px #ea5c0d;" /></div>	
+								<div class="modal" id="1"> <!--fentre modal qui affiche le contenue de "En savoir plus"-->
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">x</button>
+												<h4 class="modal-title">More informations</h4>
+											</div>
+											<div class="modal-body">
+												<p>Located between the Sully bridge and the Pont-Marie, 320m long, the Quai d'Anjou faces the former port of Les Célestins Saint-Paul.
+												This wharf was built during the subdivision of the island by Christophe Marie, Le Regrattier and Poulletier, between 1615 and 1650.
+												</p><p>Near the Pont Sully is the Hotel Lambert, built by the architect Louis Le Vau between 1642 and 1644. It is a magnificent house whose plan is organized around a 
+												courtyard and a terrace garden . The façade on the garden includes two wings, it ends on the quay side, by a rotunda. It is decorated with high ionic pilasters
+												supporting an important entablature surmounted by an attic storey.
+												The main wing contains the famous "Galerie d'Hercule" whose large low vault was painted by Charles Le Brun. The Lambert hotel was built for Jean-Baptiste Lambert de Thorigny, adviser and secretary of the King. Except Le Brun for the Galerie d'Hercule, Eustache le Sueur (Salon of Love), François Perrier (Cabinet des Muses), Pierre Patel, and other artists participating in the decoration. In the eighteenth century, the hotel belongs to Claude Du ...
+												His wife, the daughter of financier Samuel Bernard and great protector of Rousseau, hosted a much appreciated salon there.
+												The Hotel knew various fortunes before being bought by the ....
+												The hotel had been rented to a certain number of men of letters and artists, such as Roger de Beauvoir, and Charles Baudelaire, who wrote here the first pages of Les Fleurs du Mal. The facade on the quay side is decorated with a wrought iron balcony and dormer windows. The court of honor is also very sober. The interior decor is on the other hand extremely sumptuous.
+												The staircase of honor is in itself a monument. The painted ceiling which surmounts it is of a rare quality. It is an allegorical painting attributed to Le Brun. Two beautiful statues, Minerva and Apollo, are arranged in high niches. Above the doors, friezes of children's games symbolize poetry, music, arts and sciences.
+												The salons are decorated with an unheard-of luxury in a style very representative of the Louis XIV period. It is not a square centimeter that does not belong to the talent of the best wood carvers, staffers, decorators, painters and gilders.
+												The large room has a ceiling painted on the theme of "Triumph of Venus". The decorative sumptuousness culminates in the room called "the little boudoir". The games of ice mirror the polychrome splendor of the decor, and in particular the fantastic ceiling of rare exuberance, the central theme of which is an allegory of Flore and Zephir, an unclassified hotel.
+												</p>
+												<p>The 35th quai d'Anjou was the property of César François Cassini of Thury (1714-1784) in the middle of the 18th century, who undertook the realization of the famous great card of France, called "Cassini card", completed by his son Dominica. This gigantic work was at the origin of the division of France into departments at the time of the convention.
+												These two geographers were the descendants of the astronomer Jean-Dominique Cassini (1625-1712) called in France by Colbert to organize the Observatory of Paris, classified facades.
+												</p>
+												</div>
+										</div>
+									 </div>
+								</div>
+								<hr>          
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="Quai2">
+							<div class="tab-inner"> 												
+								<div class="col-lg-9 col-xs-12">
+									<h3>Béthune Docks </h3><p class="">Long 365m, it begins at Pont Sully and ends at the bridge of the Tournelle.
+									This wharf has long been called "balconies". In 1806 he received the name of Maximilien de Bethune, Duke of Sully (1560-1641), chief minister of Henri IV.
+									The name "quai des balcon" originated from a proposal by the architect Louis Le Vau who wanted all the hotels and houses on the quays of Ile Saint-Louis to be 
+									decorated with balconies.</p>
+									<button data-toggle="modal" href="#2" class="btn btn-warning" style="margin-left:15px;margin-bottom:20px;">En savoir plus</button>
+								</div>
+								<div class="col-lg-3 col-xs-12"><img  src="#" style="height:250px; width:250px; box-shadow: 0 0 0 5px #ea5c0d;" /></div>	
+								<div class="modal" id="2"> <!--fentre modal qui affiche le contenue de "En savoir plus"-->
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">x</button>
+												<h4 class="modal-title">Plus d'informations</h4>
+											</div>
+											<div class="modal-body">
+												<p>Bethune Docks</p>
+												<p>Long 365m, it begins at Pont Sully and ends at the bridge of the Tournelle.</p>
+												<p>This wharf has long been called "balconies". In 1806 he received the name of Maximilien de Bethune, Duke of Sully (1560-1641), chief minister of Henri IV.
+												The name "quai des balcon" originated from a proposal by the architect Louis Le Vau who wanted all the hotels and houses on the quays of Ile Saint-Louis to be
+												decorated with balconies.</p>
+												<p>The buildings that occupy the space opposite the boulevard Henri IV are on the site where the most magnificent hotel on Île Saint-Louis
+												was built and its beautiful garden: the hotel de Breton-villiers. Constructed from 1637 to 1640, on the plans of the architect Jean-Androuet du Cerceau for 
+												Claude the Ragois de Bretonvilliers, secretary to the Council, and very rich, this hotel disappeared in 1840.
+												The chronicler Tallemant des Reaux wrote that this hotel and its garden were the best in the world after the Seraglio of Byzantium.
+												This hotel, of which nothing remains, has been reproduced many times by illustrators, engravers and painters. The painters and decorators Simon Vouet, 
+												Nicolas Poussin, Nicolas Mignard, Sébastien Bourdon had participated in its decoration.</p>
+												<p>Rue de Bretonvilliers, between the quay and the Rue Saint-Louis-en-l'Ile, passes under a body of three-storey buildings, the last element of other hotels
+												which the Marquis de Bretonvilliers had built. (UNESCO Registered building).</p>
+												<p>The Hotel of No. 18, at the corner of the quay and the Rue Bretonvilliers, had been built by Le Vau for Thomas de Comans d'Astry, the King's maitre d'hotel.
+												This hotel was owned in the 18th century by Duke Louis Francois Armand de Richelieu, Marshal of France. It has a superb entrance, with columns and arches leading to the staircase
+												of honor at high speed with its double floor of pilasters. An underground passage once allowed access to a private jetty on the Seine. (Classified building.).</p>
+												<p>The hotels of n ° 20 and 22, known hotels the Febvre of the Barre and the Febvre of Malmaison, were constructed in the middle of the XVIIe. The number 20 has a high quality staircase and a living room that has preserved its decor painted by Mignard (ceiling). The 22 is of the same plan with a beautiful staircase up to the 1st floor. The poet Francis Carco lived for a long time in this house. (Classified building).
+												The building built in the thirties and bearing the number 24, replaced one of the hotels that were among the masterpieces of architecture of the island.
+												This hotel had been built by Louis Le Vau in 1641-42 for Louis Hasselin, master of the House at Les Derniers. The only element that has survived is the portal, 
+												whose panels were carved by Etienne Le Hongre. (UNESCO Classified portal).</p>
+
+												<p>Source : documents Icomos </p>
+											</div>
+										</div>
+									 </div>
+								</div>
+								<hr>          
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="Quai3">
+							<div class="tab-inner"> 												
+								<div class="col-lg-9 col-xs-12">
+									<h3>Bourbon Dock </h3><p class="">The Quai de Bourbon is 370 meters long, begins at Pont-Marie and forms the downstream end of the island. The cabaret “Franc-Pinot” is located at the 1st, on the ground floor. This cabaret was installed in the XVIIth century, its internal aspect did not changed more than its facade. 
+									It was one of the last stops for the Horse-drawn boat drivers who navigated on the Seine, and a rendezvous point for them.</p>
+									<button data-toggle="modal" href="#3" class="btn btn-warning" style="margin-left:15px;margin-bottom:20px;">En savoir plus</button>
+								</div>
+								<div class="col-lg-3 col-xs-12"><img  src="#" style="height:250px; width:250px; box-shadow: 0 0 0 5px #ea5c0d;" /></div>	
+								<div class="modal" id="3"> <!--fentre modal qui affiche le contenue de "En savoir plus"-->
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">x</button>
+												<h4 class="modal-title">Plus d'informations</h4>
+											</div>
+											<div class="modal-body">
+												<p>The Quai de Bourbon is 370 meters long, begins at Pont-Marie and forms the downstream end of the island. The cabaret “Franc-Pinot” is located at the 1st, on the ground floor. This cabaret was installed in the XVIIth century, its internal aspect did not changed more than its facade. 
+												It was one of the last stops for the Horse-drawn boat drivers who navigated on the Seine, and a rendezvous point for them. Classified building</p>
+
+												<p>The house bearing the number 11 was built in the 1640s for the painter Philippe de Champaigne, portraitist of Louis XIII, Richelieu, Anne of Austria, 
+												and official painter of queen Marie de Medici in 1628. (Front house classified)</p>
+
+												<p>At the bottom of the second courtyard stands the last "Jeu de Paume" of Paris which has its entrance 54 rue Saint-Louis en l'Ile. It was built in the time 
+												of Louis XIII (classified building).</p>
+													
+												<p>The Hotel Charron, at the number 15, is a beautiful residence with pyramidal roof, well in the spirit of the architecture Louis XIII. The high windows on 
+												the ground floor on both sides of the gate have preserved their wrought iron gates. This hotel was built for Jean Charron,  contrôleur “de l’Extraordinaire des
+												Guerres” in Picardie, at the same time as several houses on the street Saint-Louis en l’Ile. The sculptor Geoffroy-Dechaume, the painter Emile Bernard, lived in 
+												this hotel in the 19th century. Classified facades.</p>
+
+												<p>The hotel of the n ° 29 has a beautiful porte cochère with imposte vitrée: it was built in 1640.In the XVIII century, the Councilor of Requests, Louis Roualle de
+												Boisgelin, lived in this hotel to which he left his name. At the end of the nineteenth century, Emmanuel Lansyer, a pupil of Courbet, had a workshop there. 
+												The monumental staircase, its wrought iron railing, is classified historical monuments, as well as the door.</p>
+
+												<p>The important building bearing the number 19 is the Hotel de Jassaud. It is the most beautiful residence of the quai Bourbon. Over 30m long, its facade has 
+												three levels. It is decorated with three pediments with a floral decoration. Above the entrance porch, the large balcony of an elegant wrought iron gate is
+												supported by beautiful brackets. This hotel was built in 1666 for Nicolas de Jassaud, Master of Requests under Louis XIV, then Secretary of State. (Classified hotel).
+												The houses and hotels bearing numbers 43-45-47-41-49 and 53 of the Quai de Bourbon form the downstream point of the island after the rue des Deux Ponts.
+												They were all built by the architect François Le Vau, principal collaborator of his brother Louis, the usual architect of Louis XIV. The Hotel of the number
+												49 is also called "house of the Centaur" because of the presence of bas-reliefs representing Hercules armed with a club defeating Nessus.</p>
+
+												<p>The writer Charles-Louis Philippe and Guillaume Apollinaire, Hélène Bibesco, who was frequented by Marie Laurencin, Francis Carco, Jean Giraudoux, Max Jacob 
+												all lived in this flat. (Classified houses)</p>
+
+
+											</div>
+										</div>
+									 </div>
+								</div>
+								<hr>          
+							</div>
+						</div>	
+						<div role="tabpanel" class="tab-pane fade" id="Quai4">
+							<div class="tab-inner"> 												
+								<div class="col-lg-9 col-xs-12">
+									<h3>Orléans Dock</h3><p class="">275m long, this quay begins at the Pont de la turre and ends at the Saint-Louis bridge. 
+									Facing the south-west, looking at Notre-Dame's chevet and the left bank, protected from major traffic currents, it enjoys an exceptional situation. </p>
+									<button data-toggle="modal" href="#4" class="btn btn-warning" style="margin-left:15px;margin-bottom:20px;">More informations</button>
+								</div>
+								<div class="col-lg-3 col-xs-12"><img  src="#" style="height:250px; width:250px; box-shadow: 0 0 0 5px #ea5c0d;" /></div>	
+								<div class="modal" id="4"> <!--fentre modal qui affiche le contenue de "En savoir plus"-->
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">x</button>
+												<h4 class="modal-title">More informations</h4>
+											</div>
+											<div class="modal-body">
+												<p>At number 6, in a hotel built in 1655, there is the Polish Adam Mickiewicz Library and Museum, founded in 1903 by Ledislas Mickiewicz, son of the Polish 
+												exiled patriotic poet, who was a professor at the college of France.</p>
+												<p>The number 12 of the quai d'Orléans is marked by the undulations of its superb wrought iron balcony, it was built by Michel Guillaume who in the 1640s
+												had most of the houses built on this quay. (Classified building.).</p>
+											</div>
+										</div>
+									 </div>
+								</div>
+								<hr>          
+							</div>
+						</div>
+					</div>
+				</div>        
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+	<div class="footer" id="footer" style="margin-top:50px;">
+        <div class="container">
+            <div class="row">
+			 <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6">
+                    <form class="form-horizontal">
+						<fieldset>
+							<h3><center>Contact Us </center><h3>
+							<div class="form-group">
+								<p class="col-md-2 control-label" for="textinput">Name</p>  
+								<div class="col-md-8">
+									<input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">  
+								</div>
+							</div>
+							<div class="form-group">
+								<p class="col-md-2 control-label" for="textinput">First Name</p>  
+								<div class="col-md-8">
+									<input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+								</div>
+							</div>
+							<div class="form-group">
+								<p class="col-md-2 control-label" for="textinput">E-mail</p>  
+								<div class="col-md-8">
+									<input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+								</div>
+							</div>
+							<div class="form-group">
+								<p class="col-md-2 control-label" for="textarea">Text</p>
+								<div class="col-md-8">                     
+									<textarea class="form-control" id="textarea" name="textarea"></textarea>
+								</div>
+							</div>
+							<div class="form-group">
+							<span class="col-md-2" for="singlebutton"></span>
+								<div class="col-md-4">
+									<button id="singlebutton" name="singlebutton" class="btn btn-warning" >Envoyer</button>
+							</div>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> partnership </h3>
+                    <ul>
+                        <li> <a href="http://fr.unesco.org/"> UNESCO </a> </li>
+                        <li> <a href="#"> M.C.M </a> </li>
+                        <li> <a href="https://www.icomos.org/fr/"> ICOMOS </a> </li>
+                        <li> <a href="http://www.u-pem.fr/"> Paris EST Marne la vallé </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Our friend </h3>
+                    <ul>
+                        <li> <a href="#"> Paris vue d'en haut </a> </li>
+                        <li> <a href="#"> Balade littéraire </a> </li>
+                        <li> <a href="#"> Lisbonnes </a> </li>
+                        <li> <a href="#"> Chipre </a> </li>
+                    </ul>
+                </div> 
+				<div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3>Legal Documentation</h3>
+                    <ul>
+                        <li> <a href="#"> Utilisation </a> </li>
+                        <li> <a href="#"> Image rights </a> </li>
+						<li> <a href="#"> contact information </a> </li>
+                    </ul>
+                </div>				
+            </div>
+        </div>
+    </div>
+ </body>
+ </html>

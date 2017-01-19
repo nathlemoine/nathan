@@ -1,78 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>Nos Partenaires</title>
+<html>
+  <head>
+    <title>Nos partenaires</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="..\Assets\bootstrap-3.3.7-dist\css\bootstrap.css" rel="stylesheet">
-	<link href="..\Assets\CSS\partenaire.css" rel="stylesheet">  
+	<link href="..\Assets\CSS\Partenaire.css" rel="stylesheet">	
 	<link href="..\Assets\CSS\commun.css" rel="stylesheet"> 
 	<link rel="icon" type="image/png" href="../Assets/photo/miniature.png" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
-  </head>	
-
- <body>
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>  
+  </head>
+  <body>
+<div class="row">
 	<div class="container-fluid">	<!--responsivité de toute la page -->
-		<div class="row">
-			<nav class="navbar navbar-inverse"> <!-- classe  bootstrap pour le menu  -->
-				<div class="container-fluid">
-					<div class="navbar-header">	<!-- partie reponsive téléphone -->
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>                        
-						</button>
-						<a class="navbar-brand" href="Acceuil.html">Accueil</a>
-					</div> <!-- fin responsive -->
-					<div class="collapse navbar-collapse" id="myNavbar"> <!-- partie ecran d'ordinateur et tablette  -->
-						<ul class="nav navbar-nav">
-							<li> 
-								<a href="timeline1.html">Timeline de l'île</a>	
-							</li>
-							<li> 
-								<a href="#">Evènement</a>	
-							</li>
-							<li class="dropdown"> 
-								<a data-toggle="dropdown" href="#">L'architecture<b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="Ponts.html">Les ponts</a></li>
-									<li><a href="Monument.html">Les monuments</a></li>
-									<li><a href="Quai.html">Les quais</a></li>
-								</ul>
-							</li>
-							<li class="dropdown"> 
-								<a data-toggle="dropdown" href="#">Les balades<b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">Les itinéraires</a></li>
-									<li><a href="#">Les points intérréssants</a></li>
-									<li><a href="Galerie.html">Galerie</a></li>
-								</ul>
-							</li>
-							<li class="dropdown"> 
-								<a data-toggle="dropdown" href="#">Infos Pratiques<b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="Transport.html">Transport</a></li>
-									<li><a href="Nourriture.html">Se nourrir</a></li>
-									<li><a href="Logement.html">Se loger</a></li>
-									<li><a href="">Météo</a></li>
-								</ul>
-							</li>
-							<li class="dropdown"> 
-								<a data-toggle="dropdown" href="#">A propos<b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="partenaire.html">Nos partenaires</a></li>
-									<li><a href="equipe.html">Projet et Equipe</a></li>
-								</ul>
-							</li>
-						</ul>
-						<img src="../Assets/photo/logoMCN.png" class="logo">
-					</div> <!-- fin ecran -->
-				 </div>
-			</nav> <!-- fin bar de navigation  -->
-		</div>
-		<h1>Nos partenaire</h1>
+		<nav class="navbar navbar-inverse"> <!-- classe  bootstrap pour le menu  -->
+			<div class="container-fluid">
+				<div class="navbar-header">	<!-- partie reponsive téléphone -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+					<a class="" href="Acceuil.html"><img src="../Assets/photo/logoMCN.png" class="img-responsive logo"></a>
+				</div> <!-- fin responsive -->
+				<div class="collapse navbar-collapse" id="myNavbar"> <!-- partie ecran d'ordinateur et tablette  -->
+					<ul class="nav navbar-nav">
+						<li> 
+							<a href="timeline1.html">Timeline de l'île</a>	
+						</li>
+						<li> 
+							<a href="#">Evenement</a>	
+						</li>
+						<li class="dropdown"> 
+							<a data-toggle="dropdown" href="#">L'architecture<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="Ponts.html">Les ponts</a></li>
+								<li><a href="Monument.html">Les monuments</a></li>
+								<li><a href="Quai.html">Les quais</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"> 
+							<a data-toggle="dropdown" href="#">Les balades<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="Itinéraire.html">Les itinéraires</a></li>
+								<li><a href="Point.html">Les points intérréssants</a></li>
+								<li><a href="Galerie.html">Galerie</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"> 
+							<a data-toggle="dropdown" href="#">Infos Pratiques<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="Transport.html">Transport</a></li>
+								<li><a href="Nourriture.html">Se nourrir</a></li>
+								<li><a href="Logement.html">Se loger</a></li>
+								<li><a href="">Météo</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"> 
+							<a data-toggle="dropdown" href="#">A propos<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="partenaire.html">Nos partenaires</a></li>
+								<li><a href="equipe.html">Le projet & l'équipe</a></li>
+							</ul>
+						</li>
+						
+						<a href="../page html eng/Acceuil_eng.html" ><img src="../Assets/photo/gb_drapeau.gif" class="drapeau1"></a>
+						
+					</ul>
+					
+				</div> <!-- fin ecran -->
+			 </div>
+		</nav> <!-- fin bar de navigation  -->
+	
+		<h1>Nos partenaires</h1>
 			
 		<div class="row">
 			<div class="col-lg-3">
@@ -85,8 +87,8 @@
 						<div class="caption-text">
 							<h3 class="th3">MCN</h3>
 							<br>
-							<p>Text</p>
-							<a class=" btn btn-default" href="#" target="_blank"><span class="glyphicon glyphicon-plus"> INFO</span></a>
+							<p>La Mediation Culturelle Numérique est un organisme qui a pour vocation la mise en valeur 
+							des sites classés au patrimoine mondial de l'UNESCO</p>
 						</div>
 					</div>
 				</div>					
@@ -101,7 +103,7 @@
 						<div class="caption-text">
 							<h3 class="th3">UNESCO</h3>
 							<br>
-							<p>Text</p>
+							<p>L’UNESCO a pour vocation la coordination de la coopération internationale en éducation, sciences, culture et communication.</p>
 							<a class=" btn btn-default" href="http://fr.unesco.org/" target="_blank"><span class="glyphicon glyphicon-plus"> INFO</span></a>
 						</div>
 					</div>
@@ -117,7 +119,7 @@
 						<div class="caption-text">
 							<h3 class="th3">UPEM</h3>
 							<br>
-							<p>Test</p>
+							<p>L'Université Paris-Est Marne-La-Vallée entretient depuis quelques années une collaboration fructueuse avec l'UNESCO.</p>
 							<a class=" btn btn-default" href="http://www.u-pem.fr/" target="_blank"><span class="glyphicon glyphicon-plus"> INFO</span></a>
 						</div>
 					</div>
@@ -133,7 +135,7 @@
 						<div class="caption-text">
 							<h3 class="th3">ICOMOS</h3>
 							<br>
-							<p>Test</p>
+							<p>L'ICOMOS se consacre à la conservation et à la protection des monuments, des ensembles et des sites du patrimoine culturel. </p>
 							<a class=" btn btn-default" href="https://www.icomos.org/fr/" target="_blank"><span class="glyphicon glyphicon-plus"> INFO</span></a>
 						</div>
 					</div>
@@ -142,7 +144,7 @@
 		</div>
 		<div class="marge"></div>
 	</div>
-
+</div>
 	<div class="footer" id="footer" style="margin-top:50px;">
         <div class="container">
             <div class="row">

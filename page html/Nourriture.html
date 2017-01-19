@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>Manger sur l'île</title>
+<html>
+  <head>
+    <title>Manger sur l'île</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="..\Assets\bootstrap-3.3.7-dist\css\bootstrap.css" rel="stylesheet">
-	<link href="..\Assets\CSS\nourriture.css" rel="stylesheet">  
+	<link href="..\Assets\CSS\nourriture.css" rel="stylesheet">	
 	<link href="..\Assets\CSS\commun.css" rel="stylesheet"> 
 	<link rel="icon" type="image/png" href="../Assets/photo/miniature.png" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
-  </head>	
-
- <body>
-<div class="container-fluid">	<!--responsivité de toute la page -->
-	<div class="row">
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>  
+  </head>
+  <body>
+<div class="row">
+	<div class="container-fluid">	<!--responsivité de toute la page -->
 		<nav class="navbar navbar-inverse"> <!-- classe  bootstrap pour le menu  -->
 			<div class="container-fluid">
 				<div class="navbar-header">	<!-- partie reponsive téléphone -->
@@ -24,7 +23,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>                        
 					</button>
-					<a class="navbar-brand" href="Acceuil.html">Accueil</a>
+					<a class="" href="Acceuil.html"><img src="../Assets/photo/logoMCN.png" class="img-responsive logo"></a>
 				</div> <!-- fin responsive -->
 				<div class="collapse navbar-collapse" id="myNavbar"> <!-- partie ecran d'ordinateur et tablette  -->
 					<ul class="nav navbar-nav">
@@ -32,7 +31,7 @@
 							<a href="timeline1.html">Timeline de l'île</a>	
 						</li>
 						<li> 
-							<a href="#">Evènements</a>	
+							<a href="#">Evenement</a>	
 						</li>
 						<li class="dropdown"> 
 							<a data-toggle="dropdown" href="#">L'architecture<b class="caret"></b></a>
@@ -45,8 +44,8 @@
 						<li class="dropdown"> 
 							<a data-toggle="dropdown" href="#">Les balades<b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Les itinéraires</a></li>
-								<li><a href="#">Les points intérréssants</a></li>
+								<li><a href="Itinéraire.html">Les itinéraires</a></li>
+								<li><a href="Point.html">Les points intérréssants</a></li>
 								<li><a href="Galerie.html">Galerie</a></li>
 							</ul>
 						</li>
@@ -63,15 +62,18 @@
 							<a data-toggle="dropdown" href="#">A propos<b class="caret"></b></a>
 							<ul class="dropdown-menu">
 								<li><a href="partenaire.html">Nos partenaires</a></li>
-								<li><a href="equipe.html">Le projet et l'équipe</a></li>
+								<li><a href="equipe.html">Le projet & l'équipe</a></li>
 							</ul>
 						</li>
+						
+						<a href="../page html eng/Acceuil_eng.html" ><img src="../Assets/photo/gb_drapeau.gif" class="drapeau1"></a>
+						
 					</ul>
-					<img src="../Assets/photo/logoMCN.png" class="logo">
+					
 				</div> <!-- fin ecran -->
 			 </div>
 		</nav> <!-- fin bar de navigation  -->
-	</div>
+	
 	<h1>Manger sur l'île</h1>
 	<div class="col-xs-offset-1 col-xs-10">
 			<table class="table table-bordered table-striped table-condensed">
@@ -82,39 +84,271 @@
 				  <tr>
 						<th>Nom</th>
 						<th>Type</th>
-						<th>Adresse</th>
+						<th>Adresse & contact</th>
+						<th>Horaires</th>
 				  </tr>
 			   </thead>
 			   <tbody>
+					 <tr class="noir">
+					 <tr>
+						<td>Aux Anysetiers du Roy</td>
+						<td>Chocolats</td>
+						<td> 61 rue Saint-Louis en l'Ile, 75004 Paris, 01 56 24 84 58</td>
+						<td>Non communiqué</td>
+					  </tr>
+					  <tr class="noir">
+						<td>Auberge des Deux-Ponts</td>
+						<td>Restaurant</td>
+						<td>7 rue des Deux-Ponts - 75004 PARIS, 01 46 34 29 33</td>
+						<td>ouvert tous les midis 12h00 - 15h00 sauf Dimanche et Lundi</td>
+					  </tr>
+					   <tr>
+						<td>Auberge de la Reine Blanche</td>
+						<td>Restaurant</td>
+						<td>30 Rue St Louis en l'ile, 75004 Paris, 01 46 33 07 87</td>
+						<td>Non communiqué</td>
+					  </tr>
+					  <tr class="noir">
+						<td>Au Lys d'Argent</td>
+						<td>Restaurant</td>
+						<td>90 rue Saint-Louis en l'île - 75004 PARIS, 01 46 33 56 13</td>
+						<td>Non communiqué</td>
+					  </tr>
+					  
+					   <tr>
+						<td>Amorino</td>
+						<td>Glacier</td>
+						<td>47 rue Saint-Louis en l'île - 75004 Paris, 01 44 07 48 08</td>
+						<td>tous les jours de 12h à minuit</td>
+					  </tr>
+					  
+					  
+					  <tr class="noir">
+						<td>Berthillon</td>
+						<td>Glacier</td>
+						<td>29-31 rue saint louis en l’ile Paris 4ème, 01 43 54 31 61</td>
+						<td>ouverts du mercredi au dimanche de 10h à 20h sans interruption.</td>
+					  </tr>
+					  
+					  
+					  
 					  <tr>
-						<td></td>
-						<td></td>
-						<td></td>
+						<td>Brasserie de l'Ile Saint-louis</td>
+						<td>Bistrot, Restaurant</td>
+						<td>55, quai de Bourbon 75004 Paris, 01.43.54.02.59</td>
+						<td>Ouvert de 12h à 23h SANS RÉSERVATION Fermé le mercredi</td>
+					  </tr>
+					  
+					  <tr  class="noir">
+						<td>Café Med</td>
+						<td>Restaurant</td>
+						<td> 77 Rue Saint-Louis en l'Île - 75004 Paris, 01 43 29 73 17</td>
+						<td>Ouvert du lundi au vendredi de 12h à 15h et de 18h45 à 22h15. Les samedi et dimanche de 12h à 23h</td>
+					  </tr>
+					  
+				
+					  <tr>
+						<td>Crêpe en l'ile</td>
+						<td>Crêperie</td>
+						<td>13 Rue des Deux Ponts - 75004 Paris, 01 43 26 28 68</td>
+						<td>Non communiqué</td>
+					  </tr>
+					
+					
+					  <tr class="noir">
+						<td>Esterina</td>
+						<td>Glacier</td>
+						<td>88 rue Saint-Louis en l'île - 75004 PARIS, 01 43 26 01 54</td>
+						<td>ouvert tous les jours</td>
+					  </tr>
+					
+					
+					
+					  <tr>
+						<td>Isami</td>
+						<td>Restaurant</td>
+						<td>4 Quai Orléans - 75004 Paris, 01 40 46 06 97</td>
+						<td>ouvert du mardi au samedi</td>
+					  </tr>
+					  
+					  <tr class="noir">
+						<td>Karnile</td>
+						<td>Restaurant</td>
+						<td>12 rue Jean du Bellay, 75004 Paris, France, 01 43 25 79 59</td>
+						<td>Non communiqué</td>
+					  </tr>
+					  
+					  <tr>
+						<td>Le Caveau de l'île</td>
+						<td>Restaurant</td>
+						<td>36 rue Saint-Louis en l'Ile - 75004 Paris, 01 43 25 10 26</td>
+						<td> ouvert tous les jours jusqu'à minuit</td>
+					  </tr>
+					  
+					   <tr class="noir">
+						<td>La Charlotte de l'Ile</td>
+						<td>Salon de thé</td>
+						<td>24, rue Saint-Louis en l'Isle - 75004 Paris, 01 43 54 25 83</td>
+						<td>  ouvert de 11h à 19h, du mercredi au dimanche. Fermeture lundi et mardi</td>
+					  </tr>
+					  
+					   <tr>
+						<td>La chaumière en l'Ile</td>
+						<td>Restaurant</td>
+						<td>4 Rue Jean du Bellay, 75004 Paris, 01 43 54 27 34</td>
+						<td> Tous les jours de 12h00 à 23h00</td>
+					  </tr>
+					  
+					   
+					  <tr class="noir">
+						<td>L’escale</td>
+						<td>Bistrot</td>
+						<td>1 rue des Deux-Ponts - 75004 Paris, 01 43 54 94 23</td>
+						<td>Non communiqué</td>
+					  </tr>
+					  
+					  
+					  <tr>
+						<td>L'île flottante</td>
+						<td>Confiserie</td>
+						<td> 31 Rue des Deux-Ponts  75004 Paris, 01 43 54 69 75</td>
+						<td>Non communiqué</td>
+					  </tr>
+					  
+					  
+					<tr class="noir">
+						<td>Le Flore en l'Ile</td>
+						<td>Restaurant</td>
+						<td> 42, quai d'Orléans - 75004 Paris, 01 43 29 88 27</td>
+						<td>  Lundi - Dimanche : 07h00-02h00</td>
+					  </tr> 
+					  
+					  <tr>
+						<td>Les Fous de l'Ile</td>
+						<td>Bistrot, restaurant</td>
+						<td>33 rue des Deux Ponts - 75004 Paris</td>
+						<td> ouvert tous les jours de 10h00 à 2h00</td>
+					  </tr>
+					  
+					  <tr class="noir">
+						<td>L'Ilot Vache</td>
+						<td>Restaurant</td>
+						<td>35 rue Saint-Louis en l'île - 75004 Paris, 01 46 33 55 16</td>
+						<td>Tous les jours de 19h00 à 23h30</td>
+					  </tr>
+					 
+					  
+					  <tr>
+						<td>Le Louis IX</td>
+						<td>Bistrot, Restaurant</td>
+						<td>23 Rue des Deux Ponts 75004 Paris, 01 43 54 23 89</td>
+						<td>Non communiqué</td>
+					  </tr>
+					  
+					  <tr class="noir">
+						<td>Le Lutécia</td>
+						<td>Bistrot, restaurant</td>
+						<td>33, quai de Bourbon - 75004 Paris, 01 40 51 80 30</td>
+						<td>Ouvert tous les jours</td>
+					  </tr>
+					  
+					   <tr>
+						<td>La Maison du Chou</td>
+						<td>Pâtisserie</td>
+						<td>5 rue Jean du Bellay - 75004 PARIS, 01 46 34 28 91</td>
+						<td>Non communiqué</td>
+					  </tr>
+					  
+					 
+					   <tr class="noir">
+					  <td>L'Orangerie</td>
+						<td>Restaurant</td>
+						<td>28 rue Saint-Louis en l'île - 75004 PARIS, 01 46 33 93 98</td>
+						<td>mardi au Dimanche de 12h00 à 14h00, le soir à partir de 19h00</td>
+					  </tr>
+					  
+					  <tr>
+						<td>Le Saint-Regis</td>
+						<td>Bistrot, Restaurant</td>
+						<td> 6 Rue Jean du Bellay, 75004 Paris, 01 43 54 59 41</td>
+						<td>Non communiqué</td>
+					  </tr>
+					  
+					  <tr class="noir">
+					  <td>Le Sarrasin et le Froment</td>
+						<td>Crêperie</td>
+						<td>86 Rue Saint-Louis en l'Île - 75004 Paris, 01 56 24 32 06</td>
+						<td>Non communiqué</td>
+					  </tr>
+					  
+					   <tr>
+						<td>La Sarazine</td>
+						<td>Restaurant</td>
+						<td>14 rue Jean du Bellay - 75004 PARIS, 01 43 25 79 59</td>
+						<td> lundi au Vendredi : 12h - 15h / 19h - 23h Samedi, Dimanche, Jours fériés : 12h - 23h</td>
+					  </tr>
+					  
+					  <tr class="noir">
+						<td>Le Tastevin</td>
+						<td>Restaurant</td>
+						<td> 46 rue Saint-Louis-en-l'Île - 75004 PARIS, 01 43 54 17 31</td>
+						<td>Non communiqué</td>
+					  </tr>
+					  
+					   <tr>
+						<td>La Taverne du Nil</td>
+						<td>Restaurant</td>
+						<td>16-18 rue le regrattier 75004 Paris, 01 40 46 09 02</td>
+						<td>Non communiqué</td>
+					  </tr>
+					  
+					  <tr class="noir">
+						<td>Madame Louis</td>
+						<td>Bistrot</td>
+						<td>1 Quai de Bourbon, 75004 Paris, 01 40 51 05 05</td>
+						<td>Non communiqué</td>
 					  </tr>
 					  <tr>
-						<td></td>
-						<td></td>
-						<td></td>
+						<td>Mon Vieil Ami</td>
+						<td>Bistrot, Restaurant</td>
+						<td>69 rue Saint Louis en l'Île 75004 Paris, +33 1 40 46 01 35</td>
+						<td>Ouvert du mercredi au dimanche au déjeuner de 12h à 14h, au dîner de 19h à 23h</td>
 					  </tr>
-					  <tr>
-						<td></td>
-						<td></td>
-						<td></td>
+					  
+					   <tr class="noir">
+						<td>Nos Ancêtres les Gaulois</td>
+						<td>Restaurant</td>
+						<td> 39, rue Saint-Louis-en-l'Ile 75004 Paris, 01 46 33 66 07</td>
+						<td>tous les soirs de 19h00 à 2h00 du matin</td>
 					  </tr>
-					  <tr>
-						<td></td>
-						<td></td>
-						<td></td>
+					  
+					   <tr>
+						<td>Pom'Cannelle</td>
+						<td>Restaurant</td>
+						<td>27 rue des Deux-Ponts - 75004 PARIS, 01 46 34 68 59</td>
+						<td>Non communiqué</td>
 					  </tr>
-					  <tr>
-						<td></td>
-						<td></td>
-						<td></td>
+					  
+					   <tr class="noir">
+						<td>Restaurant Jules</td>
+						<td>Restaurant</td>
+						<td>17 Rue des Deux-Ponts - 75004 Paris, 01 43 29 73 07</td>
+						<td>ouvert tous les jours du mardi au samedi de 10h00 à Minuit. Le dimanche de 10h00 à 17h00</td>
 					  </tr>
+					  
 					  <tr>
-						<td></td>
-						<td></td>
-						<td></td>
+						<td>Sens'o</td>
+						<td>Restaurant</td>
+						<td>81 Rue Saint Louis en l' Ile - 75004 Paris, 01 46 33 35 46</td>
+						<td>ouvert 7j/7 ; de 12h00 - 15h00 et de 19h00 - 23h00</td>
+					  </tr>
+					  
+					  
+					   <tr class="noir">
+						<td>Sorza</td>
+						<td>Bistrot, Restaurant</td>
+						<td>51 Rue Saint-Louis en l'Île - 75004 Paris, 01 43 54 78 62</td>
+						<td>ouvert 7/7 - 12h00 à 22h30</td>
 					  </tr>
 				</tbody>
 			</table>
@@ -126,45 +360,129 @@
 				  <tr>
 						<th>Nom</th>
 						<th>Type</th>
-						<th>Adresse</th>
+						<th>Adresse & contact</th>
+						<th>Horaires</th>
 				  </tr>
 			   </thead>
 			   <tbody>
+					  <tr class="noir">
+						<td>Le prestige de l'alimentation</td>
+						<td>Commerce de proximité</td>
+						<td>67 rue Saint-Louis en l'Ile - 75004 Paris</td>
+						<td>Non communiqué</td>
+					  </tr>
+					  
 					  <tr>
-						<td></td>
-						<td></td>
-						<td></td>
+						<td>Boucherie Barbaud</td>
+						<td>Boucherie</td>
+						<td> 51 rue St Louis en l'Ile 75004 PARIS, 01 43 29 06 98</td>
+						<td>Lundi au samedi de 9.00am to 4.00pm</td>
+					  </tr>
+					  <tr class="noir">
+						<td>Fromagerie 38 ISL</td>
+						<td>fromages, charcuterie à la coupe, plats traiteurs, vins sélectionnés</td>
+						<td>8 rue St Louis en l'Ile 75004 PARIS, 01 46 33 30 00</td>
+						<td>ouvert du mardi au samedi de 8h30 à 22h, et le dimanche de 9h30 à 16h. Fermé le lundi</td>
 					  </tr>
 					  <tr>
-						<td></td>
-						<td></td>
-						<td></td>
+						<td>Boucherie Gardil</td>
+						<td>Boucherie - Charcuterie</td>
+						<td>44 rue St Louis en l'Ile 75004 PARIS, 01 43 54 97 15</td>
+						<td>Mardi au samedi de 9h00 à 13h00 et de 16h00 à 20h00</td>
+					  </tr>
+					  <tr class="noir">
+						<td>Fois Gras Laffitte</td>
+						<td>Foie Gras et spécialités régionales</td>
+						<td>8 rue Jean du Bellay - 75004 PARIS, 01.43.26.08.63 </td>
+						<td>Non communiqué</td>
 					  </tr>
 					  <tr>
-						<td></td>
-						<td></td>
-						<td></td>
+						<td>Vergers de l'Ile Saint Louis</td>
+						<td>Fruits et Légumes</td>
+						<td>25 rue Deux Ponts 75004 PARIS, 01 43 54 80 11</td>
+						<td>Non communiqué</td>
+					  </tr>
+					  <tr class="noir">
+						<td>Boulangerie des Deux Ponts</td>
+						<td>Boulangerie - Pâtisserie</td>
+						<td>35 rue des Deux-Ponts - 75004 PARIS, 01.43.54.57.59</td>
+						<td>Non communiqué</td>
 					  </tr>
 					  <tr>
-						<td></td>
-						<td></td>
-						<td></td>
+						<td>L'Étiquette</td>
+						<td>Cavistes</td>
+						<td>10 rue Jean du Bellay - 75004 Paris, 01.44.07.99.27</td>
+						<td>Non communiqué</td>
 					  </tr>
+					  
+					  <tr class="noir">
+						<td>La Ferme St Aubin</td>
+						<td> Fromages et produits régionaux</td>
+						<td>76 rue St Louis en l'Ile 75004 PARIS, 01 43 54 74 54</td>
+						<td>ouvert du Mardi au dimanche de 9h00 à 20h00</td>
+					  </tr>
+					  
+					   <tr>
+						<td>Boulangerie Martin</td>
+						<td> Boulangerie -pâtisserie</td>
+						<td>40 rue Saint-Louis en l'île - 75004 PARIS, 01 43 54 69 48</td>
+						<td>ouvert du mardi au samedi de 7h30 à 14h00 et de 15h30 à 20h00, Dernière fournée de pain, le soir à 19h</td>
+					  </tr>
+					  
+					  <tr class="noir">
+						<td>Boulangerie Saint-Louis</td>
+						<td>Boulangerie</td>
+						<td> 80 rue Saint-Louis en l'ile - 75004 PARIS</td>
+						<td>Non communiqué</td>
+					  </tr>
+					  
 					  <tr>
-						<td></td>
-						<td></td>
-						<td></td>
+						<td>Oliviers & Co</td>
+						<td> Chaîne spécialisée dans l'huile d'olive proposant aussi des vinaigres, condiments et produits d'épicerie fine</td>
+						<td>28 Rue de Buci, 75006 Paris, 01 44 07 15 43</td>
+						<td>Lundi au samedi : 11h00 à 13h30 & 14h30 à 19h30</td>
 					  </tr>
-					  <tr>
-						<td></td>
-						<td></td>
-						<td></td>
+					  
+					  <tr class="noir">
+						<td>Le marché des Isles</td>
+						<td>Epicerie-Primeurs</td>
+						<td>19 rue Deux Ponts 75004 PARIS, 01 43 54 21 75</td>
+						<td>Non communiqué</td>
 					  </tr>
+					  
+					   <tr>
+						<td>Première Pression de Provence</td>
+						<td> Vendeur d’huile d’olives</td>
+						<td> 51 rue Saint-Louis en l'île - 75004 PARIS, 09 66 98 23 48</td>
+						<td> Du lundi au vendredi : 10h30 - 20h, Samedi : 10h30 - 22h, Dimanche : 10h30 - 20h</td>
+					  </tr>
+					  
+					  <tr class="noir">
+						<td>C Monvin</td>
+						<td>Caviste spécialisé Grand crus</td>
+						<td>9 Quai de Bourbon - 75004 PARIS, 09 40 99 06 42</td>
+						<td>Non communiqué</td>
+					  </tr>
+					   <tr>
+						<td>Giant Notre Dame</td>
+						<td> Magasin de sport</td>
+						<td> 1 Boulevard Henri IV, 75004 Paris, 01 43 29 05 63</td>
+						<td>Du lundi au vendredi 10h-19h, 10h-18h le samedi</td>
+					  </tr>
+					  
+					   <tr class="noir">
+						<td>La Maison de la Mouche Dubos</td>
+						<td>Pêche</td>
+						<td>1 Boulevard Henri IV, 75004 Paris, 01 43 54 60 46</td>
+						<td> ouvert du mardi au samedi de 10h à 19h30</td>
+					  </tr>
+					  
+					  
 				</tbody>
 			</table>
 			</div>
 		</div>
-	
+	</div>
 
 	<div class="footer" id="footer" style="margin-top:50px;">
         <div class="container">

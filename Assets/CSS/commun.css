@@ -18,11 +18,15 @@ a{color:#fff;}
 
 .modal{color: black;}
 
-.logo{
-	margin-left:87%;
-	margin-top:-4.3%;
+.drapeau1{
+	height:30px !important;
+	width:45px !important;
+	position: absolute;
+    right: 20px;
+
 	}
-	
+.img-responsive.logo{position:relative;top:0;}
+
 .nav.navbar-nav {
 	margin-top:10px;
 	font-size: 120%;
@@ -69,6 +73,16 @@ a{color:#fff;}
 	}
 
 .responsive{margin-top:70px;}
+
+.drapeau1{
+	height:30px !important;
+	width:45px !important;
+	position: absolute;
+    right: 20px;
+	top:250px;
+
+}
+
 }
 
 

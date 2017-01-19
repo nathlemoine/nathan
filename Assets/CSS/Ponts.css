@@ -58,6 +58,7 @@ h1{
 	box-shadow: 0 0 0 5px #ea5c0d;
 }
 
+
 @media screen and (max-width: 800px) {
 
 	.nav.nav-justified.inline > li{display:inline-block;}

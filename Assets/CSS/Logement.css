@@ -19,30 +19,29 @@ h1{
 	
 .marge {margin-bottom:40px;}
 .marge2 {margin-left:5%;}
+
 .hotel{
 	background-color:#505050;
-	padding:30px;
+	padding:2%;
 	border-radius:5px;
-	margin-left:100px;
+	margin-left:6.5%;
 	
 }
+.col-lg-3.hotel{
+		height:600px;
+		}	
 
 #image{
-	margin-left:45px;
+	
+	display: block;
+    margin: auto;
 	box-shadow: 0 0 0 5px #ea5c0d;
 }
 
-@media screen and (max-width: 800px) {
-	.col-lg-3.hotel{
-		height:600px;
-		margin:10px;}	
-	
-	#image{
-	margin-left:15px;
-	box-shadow: 0 0 0 5px #ea5c0d;
-	}
-	
-}
+.img-responsive.v2{
+position:relative}
+
+
 	
 	
 	
