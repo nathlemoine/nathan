@@ -1,0 +1,44 @@
+h1{
+	font-family:Dyno; 
+	background-image:url("../photo/titre2.png");
+	background-repeat:no-repeat;
+	padding-bottom:25px;
+	padding-left:65px;
+	}
+	
+.th3{
+	font-family:Dyno; 
+	background-image:url("../photo/sous_titre2.png");
+	background-repeat:no-repeat;
+	background-position: bottom left;
+	padding-top:0px;
+	padding-bottom:10px;
+	padding-left:10px;
+	color:#f7af3e;
+	}
+	
+.marge {margin-bottom:40px;}
+.notfound{
+	background-color:#505050;
+	padding:30px;
+	border-radius:5px;
+	margin-left:20%;
+	
+}
+
+#image{
+	margin-left:5%;
+	box-shadow: 0 0 0 5px #ea5c0d;
+}
+
+@media screen and (max-width: 800px) {
+	.col-lg-3.hotel{
+		height:600px;
+		margin:10px;}	
+	
+	#image{
+	margin-left:15px;
+	box-shadow: 0 0 0 5px #ea5c0d;
+	}
+	
+}

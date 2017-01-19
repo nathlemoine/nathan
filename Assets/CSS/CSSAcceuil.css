@@ -1,0 +1,58 @@
+@font-face {
+    font-family:Dyno;
+    src: url("../Fonts/Dyno Regular.ttf");
+}
+
+@font-face {
+    font-family:Cicle Fina;
+    src: url("../Fonts/Cicle Fina.ttf");
+}
+
+body,html{
+	margin:0;
+	padding:0;
+	background-color:#333333;
+	color:white;
+	font-family:Cicle Fina;
+}
+
+a{color:white;}
+
+h1{font-family:Dyno;}	
+h2{font-family:Dyno;}
+h3{font-family:Dyno;}
+h4{font-family:Dyno;}
+
+
+.slider{width:100%;}
+
+.carouselText {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+
+.fade-carousel .carousel-inner .item .carouselText {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .carouselText{
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
+}

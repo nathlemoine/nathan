@@ -1,0 +1,74 @@
+@font-face {
+    font-family:Dyno;
+    src: url("../Fonts/Dyno Regular.ttf");
+}
+
+@font-face {
+    font-family:Cicle Fina;
+    src: url("../Fonts/Cicle Fina.ttf");
+}
+
+body{
+	background-color:#333333;
+	color:white;
+	font-family:Cicle Fina;
+}
+
+a{color:#fff;}
+
+.modal{color: black;}
+
+.logo{
+	margin-left:87%;
+	margin-top:-4.3%;
+	}
+	
+.nav.navbar-nav {
+	margin-top:10px;
+	font-size: 120%;
+	}
+.navbar-header > a {
+	margin-top:10px;
+	font-size: 120%;
+	}
+	
+.footer {
+	background: #505050;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+}
+.footer p {
+	margin: 0;
+}
+
+.footer ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+}
+
+.responsive { margin-top:0px;}
+
+
+@media screen and (max-width: 800px) {
+  .logo{
+	margin-left:-4%;
+	margin-top:-2%;
+	}
+	
+.nav.navbar-nav {
+	margin-top:0;
+	font-size: 120%;
+	}
+.navbar-header > a {
+	margin-top:0;
+	font-size: 120%;
+	}
+
+.responsive{margin-top:70px;}
+}
+
+

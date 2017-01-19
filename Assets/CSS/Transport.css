@@ -1,0 +1,54 @@
+h1{
+	font-family:Dyno; 
+	background-image:url("../photo/titre2.png");
+	background-repeat:no-repeat;
+	padding-top:2px;
+	padding-bottom:25px;
+	padding-left:65px;
+	}
+	
+.portable {
+	position:absolute;
+	left:-999em;
+}
+.nav.nav-pills > li{
+	background-color: #f7af3e;
+	border-radius: 4px;
+}
+.nav-pills > li.active  {
+  color: #f7af3e;
+  background-color: #f7af3e;;
+}
+
+@media screen and (max-width: 400px) {
+	.ordi{
+		position:absolute;
+		left:-999em;
+	}
+	.portable {
+		position:absolute;
+		left:0;
+		height:600px;
+	}
+	.footer.resp{
+		position:absolute;
+		bottom:-70em;
+	}
+	
+}	
+@media screen and (max-width: 800px) {
+	.ordi{
+		position:absolute;
+		left:-999em;
+	}
+	.portable {
+		position:absolute;
+		left:0;
+		height:600px;
+	}
+	.footer.resp{
+		position:absolute;
+		bottom:-80em;
+	}
+	
+}	

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Les Quais</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="..\Assets\bootstrap-3.3.7-dist\css\bootstrap.css" rel="stylesheet">
+	<link href="..\Assets\CSS\Quai.css" rel="stylesheet">  
+	<link href="..\Assets\CSS\commun.css" rel="stylesheet"> 
+	<link rel="icon" type="image/png" href="../photo/miniature.png" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
+  </head>	
+
+ <body>
+	<div class="container-fluid">	<!--responsivité de toute la page -->
+		<div class="row">
+			<nav class="navbar navbar-inverse"> <!-- classe  bootstrap pour le menu  -->
+				<div class="container-fluid">
+					<div class="navbar-header">	<!-- partie reponsive téléphone -->
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>                        
+						</button>
+						<a class="navbar-brand" href="Acceuil.html">Accueil</a>
+					</div> <!-- fin responsive -->
+					<div class="collapse navbar-collapse" id="myNavbar"> <!-- partie ecran d'ordinateur et tablette  -->
+						<ul class="nav navbar-nav">
+							<li> 
+							<a href="timeline1.html">Timeline de l'île</a>	
+							</li>
+							<li> 
+							<a href="#">Evènements</a>	
+							</li>
+							<li class="dropdown"> 
+								<a data-toggle="dropdown" href="#">L'architecture<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="Ponts.html">Les ponts</a></li>
+									<li><a href="Monument.html">Les Monuments</a></li>
+									<li><a href="Quai.html">Les quais</a></li>
+								</ul>
+							</li>
+							<li class="dropdown"> 
+								<a data-toggle="dropdown" href="#">Les balades<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Les itinéraires</a></li>
+									<li><a href="#">Les points intérréssants</a></li>
+									<li><a href="Galerie.html">Galerie</a></li>
+								</ul>
+							</li>
+							<li class="dropdown"> 
+								<a data-toggle="dropdown" href="#">Infos Pratiques<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="Transport.html">Transport</a></li>
+									<li><a href="Nourriture.html">Se nourrir</a></li>
+									<li><a href="Logement.html">Se loger</a></li>
+									<li><a href="">Météo</a></li>
+								</ul>
+							</li>
+							<li class="dropdown"> 
+								<a data-toggle="dropdown" href="#">A propos<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="partenaire.html">Nos partenaires</a></li>
+									<li><a href="equipe.html">Projet et Equipe</a></li>
+								</ul>
+							</li>
+						</ul>
+						<img src="../Assets/photo/logoMCN.png" class="logo">
+					</div> <!-- fin ecran -->
+				 </div>
+			</nav> <!-- fin bar de navigation  -->
+		</div>
+		<h1>Les Quais </h1>
+		<div class="row">
+			<div class="ordi">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " role="tabpanel"><!-- onglet "tabs" -->
+					<ul class="nav nav-justified " id="nav-tabs" role="tablist">
+						<li role="presentation" class="active">
+							<a href="#Quai1" aria-controls="#Quai1" role="tab" data-toggle="tab">
+							<img class="img-circle custom" src="#" />Quai d'Anjou
+							</a>
+						</li>
+						<li role="presentation" class="">
+							<a href="##Quai2" aria-controls="#Quai2" role="tab" data-toggle="tab">
+							<img class="img-circle" src="#" />Quai de Béthune     
+							</a>	
+						</li>
+						<li role="presentation" class="">
+							<a href="#Quai3" aria-controls="#Quai3" role="tab" data-toggle="tab">
+							<img class="img-circle" src="#" />Quai de Bourbon
+                       
+							</a>
+						</li>
+						<li role="presentation" class="">
+							<a href="#Quai4" aria-controls="#Quai4" role="tab" data-toggle="tab">
+							<img class="img-circle" src="#" />Quai D'Orléans                   
+							</a>
+						</li>
+						<li role="presentation" class="">
+							<a href="#Quai5" aria-controls="#Quai5" role="tab" data-toggle="tab">
+							<img class="img-circle" src="#" />NOM DU QUAI                        
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="portable">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " role="tabpanel"><!-- onglet "tabs" -->
+					<ul class="nav nav-justified inline" id="nav-tabs" role="tablist">
+						<li role="presentation" class="active">
+							<a href="#Quai1" aria-controls="#Quai1" role="tab" data-toggle="tab">
+							Quai d'Anjou   
+							</a>
+						</li>
+						<li role="presentation" class="">
+							<a href="##Quai2" aria-controls="#Quai2" role="tab" data-toggle="tab">
+							Quai de Béthune    
+							</a>	
+						</li>
+						<li role="presentation" class="">
+							<a href="#Quai3" aria-controls="#Quai3" role="tab" data-toggle="tab">
+							Quai de Bourbon						
+							</a>
+						</li>
+						<li role="presentation" class="">
+							<a href="#Quai4" aria-controls="#Quai4" role="tab" data-toggle="tab">
+							Quai d'Orléans   
+							</a>
+						</li>
+						<li role="presentation" class="">
+							<a href="#Quai5" aria-controls="#Quai5" role="tab" data-toggle="tab">
+							Quai   	
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="responsive">
+				<div class="col-xs-12 col-xs-12"><!-- Contenue des onglet-->
+					<div class="tab-content" id="tabs-collapse">            
+						<div role="tabpanel" class="tab-pane fade in active" id="Quai1">
+							<div class="tab-inner"> 												
+								<div class="col-lg-9 col-xs-12">
+									<h3>Quai d'Anjou </h3><p class="">Situé entre le pont Sully et le Pont-Marie, long de 320m, le quai d’Anjou fait face à l’ancien port des Célestins Saint-Paul.
+Ce quai a été construit lors du lotissement de l’île par Christophe Marie, Le Regrattier et Poulletier, entre 1615 et 1650. Près du Pont Sully se trouve l’hôtel Lambert, élevé par l’architecte Louis Le Vau entre 1642 et 1644
+ </p>
+									<button data-toggle="modal" href="#1" class="btn btn-warning" style="margin-left:15px;margin-bottom:20px;">En savoir plus</button>
+								</div>
+								<div class="col-lg-3 col-xs-12"><img  src="#" style="height:250px; width:250px; box-shadow: 0 0 0 5px #ea5c0d;" /></div>	
+								<div class="modal" id="1"> <!--fentre modal qui affiche le contenue de "En savoir plus"-->
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">x</button>
+												<h4 class="modal-title">Plus d'informations</h4>
+											</div>
+											<div class="modal-body">
+												Situé entre le pont Sully et le Pont-Marie, long de 320m, le quai d’Anjou fait face à l’ancien port des Célestins Saint-Paul.
+												Ce quai a été construit lors du lotissement de l’île par Christophe Marie, Le Regrattier et Poulletier, entre 1615 et 1650.
+												Près du Pont Sully se trouve l’hôtel Lambert, élevé par l’architecte Louis Le Vau entre 1642 et 1644. C’est une magnifique demeure dont le plan est organisé autour d’une cour d’honneur et d’un jardin en terrasse. La façade sur jardin comprend deux ailes, elle se termine côté quai, par une rotonde. Elle est ornée de hautes pilastres ioniques supportant un important entablement surmonté d’un étage d’attique.
+												L’aile principale contient la célèbre “Galerie d’hercule” dont la grande voûte surbaissée fut peinte par Charles Le Brun.L’hôtel Lambert avait été édifié pour Jean-Baptiste Lambert de Thorigny, conseiller et secrétaire du Roi. Hormis Le Brun pour la galerie d’Hercule,Eustache le Sueur (Salon de l’Amour), François Perrier(cabinet des Muses), Pierre Patel, et d’autres artistes participèrent à la décoration. Au XVIII° siècle, l’hôtel appartient à Claude Du…
+												Sa femme,fille du financier Samuel Bernard et grande protectrice de rousseau, y anima un salon très apprécié.
+												Auparavant, l’hôtel avait été loué à un certain nombre d’homme de lettres et d’artistes, tels Roger de Beauvoir, et Charles Baudelaire qui écrivit ici les premières pages des Fleurs du Mal. La façade du côté du quai est ornée d’un balcon de fer forgé et de lucarnes. La cour d’honneur est également très sobre. Le décor intérieur est par contre d’une extrême somptuosité.
+												L’escalier d’honneur est en lui-même un monument. Le plafond peint qui le surmonte est d’une rare qualité. Il s’agit d’une peinture allégorique attribuée à Le Brun. Deux belles statues, Minerve et Apollon, sont disposées dans de hautes niches. Au dessus des portes, des frises de jeux d’enfants symbolisent la poésie, la Musique, les Arts et les Sciences.
+												Les salons sont décorés avec un luxe inouï dans un style très représentatif de l’époque Louis XIV. Trumeaux des cheminées, dessus des portes, ébrasements, plafonds, corniches lambris, il n’est pas un centimètre carré qui ne relève du talent des meilleurs sculpteurs sur bois, staffeurs, décorateurs, peintres et doreurs.
+												La grande chambre possède un plafond peint sur le thème du “Triomphe de Vénus”. La somptuosité décorative culmine dans la pièce appelée “le petit boudoir”. Les jeux de glaces y répercutent à l’infini les fastes polychromes du décor, et notamment le fantastique plafond d’une exubérance rare, dont le thème central est une allégorie de Flore et de Zéphir, Hôtel non-classé.
+												Le n°35 quai d’Anjou était au milieu du XVIIIe siècle la propriété de César François Cassini de Thury (1714-1784) qui entreprit la réalisation de la fameuse grande carte de la France, appelée “carte Cassini”, terminée par son fils Dominique. Ce gigantesque travail fut à l’origine de la division de la France en départements au moment de la convention.
+												Ces deux géographes étaient les descendants de l’astronome Jean-Dominique Cassini (1625-1712) appelé en france par Colbert pour organiser l’Observatoire de Paris,façades classées.
+
+											</div>
+										</div>
+									 </div>
+								</div>
+								<hr>          
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="Quai2">
+							<div class="tab-inner"> 												
+								<div class="col-lg-9 col-xs-12">
+									<h3>Quai de Béthune </h3><p class="">Long de 365m, il commence au Pont Sully et se termine au pont de la Tournelle. Ce quai s’appella longtemps quai “des balcons”. En 1806, il reçut le nom de Maximilien de Béthune, duc de Sully (1560-1641), principal Ministre d’Henri IV. Le nom de “quai des balcons” avait pour origine une proposition de l’architecte Louis Le Vau qui souhaitait que tous les hôtel et maisons des quais de l’Ile Saint-Louis soient agrémentés d’un balcons. </p>
+									<button data-toggle="modal" href="#2" class="btn btn-warning" style="margin-left:15px;margin-bottom:20px;">En savoir plus</button>
+								</div>
+								<div class="col-lg-3 col-xs-12"><img  src="#" style="height:250px; width:250px; box-shadow: 0 0 0 5px #ea5c0d;" /></div>	
+								<div class="modal" id="2"> <!--fentre modal qui affiche le contenue de "En savoir plus"-->
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">x</button>
+												<h4 class="modal-title">Plus d'informations</h4>
+											</div>
+											<div class="modal-body">
+												Long de 365m, il commence au Pont Sully et se termine au pont de la Tournelle.
+												Ce quai s’appella longtemps quai “des balcons”. En 1806, il reçut le nom de Maximilien de Béthune, duc de Sully (1560-1641), principal Ministre d’Henri IV.
+												Le nom de “quai des balcons” avait pour origine une proposition de l’architecte Louis Le Vau qui souhaitait que tous les hôtel et maisons des quais de l’Ile Saint-Louis soient agrémentés d’un balcons.
+												Les immeubles qui occupent l’espace face au boulevard Henri IV sont à l’emplacement où fut construit le plus magnifique hôtel de l'Île Saint-Louis et son superbe jardin: l’hôtel de Breton-villiers. Construit de 1637 à 1640, sur les plans de l’architecte Jean-Androuet du Cerceau pour Claude le Ragois de Bretonvilliers, secrétaire au Conseil, et fort riche, cet hôtel disparut en 1840.
+												Le chroniqueur Tallemant des Reaux écrivait que cet hôtel et son jardin constituaient l’ensemble au monde le mieux situé après le Sérail de Byzance.
+												Cet hôtel, dont il ne reste rien, a été maintes fois reproduit par les illustrateurs, graveurs et peintres. Les peintres et décorateurs Simon Vouet, Nicolas Poussin, Nicolas Mignard, Sébastien Bourdon avaient participé à sa décoration.
+												La rue de Bretonvilliers entre le quai et la rue Saint-Louis-en-l'Île, passe sous un corps de bâtiments de trois étages, dernier élément d’autres hôtels que le marquis de Bretonvilliers avait fait édifier. (immeuble Inscrit).
+												L’Hôtel du n°18, à l’angle du quai et de la rue Bretonvilliers, avait été édifié par Le Vau pour Thomas de Comans d’Astry, maître d'hôtel du Roi.
+												Cet hôtel fut la propriété au XVIIIe siècle du duc Louis François Armand de Richelieu, maréchal de France. Il dispose d’une entrée superbe, à colonnes et arcatures aboutissant à l’escalier d’honneur à grande allure avec son double étage de pilastres. Un passage souterrain permettait jadis d’accéder à un embarcadère privé sur la Seine. (Immeuble classé.).
+												Les hôtels des n°20 et 22, dits hôtels le Febvre de la Barre et Le Febvre de Malmaison, ont été construits au milieu du XVIIe. Le numéro 20 possède un escalier de grande qualité et un salon qui a conservé son décor peint par Mignard (plafond). Le 22 est de même plan avec un bel escalier jusqu’au 1er étage. Le poète Francis Carco vécut longtemps dans cette maison. (Immeuble classés).
+												l’immeuble construit dans les années trente et qui porte le numéro 24, a remplacé un des hôtels qui figuraient parmi les chefs-d’oeuvre d’architecture de l'île.
+												Cet hôtel avait été construit par Louis Le Vau en 1641-42 pour Louis Hasselin, maître de la Chambre aux Derniers. Le seul élément qui a subsisté est le portail, dont les panneaux ont été sculptés par Etienne Le Hongre. (portail classé).
+											</div>
+										</div>
+									 </div>
+								</div>
+								<hr>          
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="Quai3">
+							<div class="tab-inner"> 												
+								<div class="col-lg-9 col-xs-12">
+									<h3>Quai de Bourbon </h3><p class="">Long de 370m, le quai de Bourbon commence au Pont-Marie et constitue l’extrémité aval de l’île. Au rez-de-chaussée du n°1 se trouve le cabaret du “Franc-Pinot”. Ce cabaret fut installé au XVIIe siècle, son aspect intérieur n’a pas plus changé que sa façade. Il était un des “terminus” des coches d’eau qui naviguaient sur la Seine, et un rendez-vous des mariniers.</p>
+									<button data-toggle="modal" href="#3" class="btn btn-warning" style="margin-left:15px;margin-bottom:20px;">En savoir plus</button>
+								</div>
+								<div class="col-lg-3 col-xs-12"><img  src="#" style="height:250px; width:250px; box-shadow: 0 0 0 5px #ea5c0d;" /></div>	
+								<div class="modal" id="3"> <!--fentre modal qui affiche le contenue de "En savoir plus"-->
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">x</button>
+												<h4 class="modal-title">Plus d'informations</h4>
+											</div>
+											<div class="modal-body">
+												Long de 370m, le quai de Bourbon commence au Pont-Marie et constitue l’extrémité aval de l’île.
+												Au rez-de-chaussée du n°1 se trouve le cabaret du “Franc-Pinot”. Ce cabaret fut installé au XVIIe siècle, son aspect intérieur n’a pas plus changé que sa façade. Il était un des “terminus” des coches d’eau qui naviguaient sur la Seine, et un rendez-vous des mariniers. Bâtiments classé.
+												La maison qui porte le numéro 11 a été construite dans les années 1640 pour le peintre Philippe de Champaigne, portraitiste de Louis XIII, Richelieu, anne d’Autriche, et peintre officiel de la reine Marie de médicis en 1628. (Façades classées.)
+												Au fond de la seconde cour s’élève le dernier “jeu de paume” de Paris qui a son entrée 54 rue Saint-Louis en l’Ile. Il avait été construit au temps de Louis XIII.(Édifice classé).
+												L’Hôtel Charron, au n°15, est une belle demeure avec comble pyramidal bien dans l’esprit de l’architecture Louis XIII. Les hautes fenêtres du rez-de-chaussée, de part et d’autre du portail, ont conservé leurs grilles de fer forgé. Cet hôtel fut construit pour Jean Charron, contrôleur de l’Extraordinaire des Guerres en picardie, en même temps que plusieurs maisons de rapport rue Saint-Louis en l’Ile.
+												Le sculpteur Geoffroy-Dechaume, le peintre Emile Bernard, ont habité cet hôtel au XIXe siècle, Façades classées.
+												L’hôtel du n°29 possède une belle porte cochère à imposte vitrée: il fut construit en 1640. Au XVIIIe, le Conseiller aux requêtes, Louis Roualle de Boisgelin, habita cet hôtel auquel il laissa son nom. A la fin du XIXe, Emmanuel Lansyer, élève de Courbet, y occupait un atelier. L’escalier monumental, sa rampe de fer forgé, sont classés monuments historiques, ainsi que la porte.
+												L’important bâtiment qui porte le n°19 est l’hôtel de Jassaud. C’est la plus belle demeure du quai Bourbon. Sur plus de 30m de long, sa façade comporte trois niveaux. Elle est ornée de trois frontons pourvus d’une décoration florale.
+												Au-dessus du porche d’entrée, le grand balcon d’une élégante grille de fer forgé est soutenu par de belles consoles.
+												Cet hôtel fut construit en 1666 pour Nicolas de Jassaud, maître de requêtes sous Louis XIV, puis secrétaire d’Etat. (Hôtel classé).
+												Les maisons et hôtels qui portent les numéros 43-45-47-41-49 et 53 du quai de Bourbon forment la pointe aval de l'île après la rue des Deux Ponts. ils ont tous été construits par l’architecte François Le Vau, principal collaborateur de son frère Louis, l’architecte ordinaire de Louis XIV.
+												L’Hôtel du n°49 est également appelé “maison du Centaure” en raison de la présence de bas-reliefs représentant Hercule armé d’une massue pour abattre Nessus.
+												De cet immeuble où résidèrent notamment l’écrivain Charles-Louis Philippe et Guillaume Apollinaire, Hélène Bibesco, et qui fut fréquenté par Marie Laurencin, Francis Carco, Jean Giraudoux, Max Jacob, etc…. (Immeubles classées).
+												Source: documents Icomos 
+
+											</div>
+										</div>
+									 </div>
+								</div>
+								<hr>          
+							</div>
+						</div>	
+						<div role="tabpanel" class="tab-pane fade" id="Quai4">
+							<div class="tab-inner"> 												
+								<div class="col-lg-9 col-xs-12">
+									<h3>Quai d'Orléans </h3><p class="">Long de 275m, ce quai commence au Pont de la tourelle et se termine face à la passerelle Saint-Louis. Orienté au sud-Ouest, regardant le chevet de Notre-Dame et la rive gauche, assez à l’abri des grands courants de circulation, il bénéficie d’une situation exceptionnelle. </p>
+									<button data-toggle="modal" href="#4" class="btn btn-warning" style="margin-left:15px;margin-bottom:20px;">En savoir plus</button>
+								</div>
+								<div class="col-lg-3 col-xs-12"><img  src="#" style="height:250px; width:250px; box-shadow: 0 0 0 5px #ea5c0d;" /></div>	
+								<div class="modal" id="4"> <!--fentre modal qui affiche le contenue de "En savoir plus"-->
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">x</button>
+												<h4 class="modal-title">Plus d'informations</h4>
+											</div>
+											<div class="modal-body">
+												Long de 275m, ce quai commence au Pont de la tourelle et se termine face à la passerelle Saint-Louis. Orienté au sud-Ouest, regardant le chevet de Notre-Dame et la rive gauche, assez à l’abri des grands courants de circulation, il bénéficie d’une situation exceptionnelle.
+												Au numéro 6, dans un hôtel élevé en 1655, se trouvent la bibliothèque et le musée Polonais Adam Mickiewicz, fondé en 1903 par Ledislas Mickiewicz, fils du poète patriote polonais exilé, qui fut professeur au collège de France.
+												Le numéro 12 du quai d’Orléans se signale par les ondulations de son superbe balcon de fer forgé, il fut édifié par Michel Guillaume qui, dans les années 1640, fit élever la plupart des maisons de ce quai. (immeuble classés.).
+
+											</div>
+										</div>
+									 </div>
+								</div>
+								<hr>          
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="Quai5">
+							<div class="tab-inner"> 												
+								<div class="col-lg-9 col-xs-12">
+									<h3>NOM DU QUAI </h3><p class="">TEXT HERE </p>
+									<button data-toggle="modal" href="#5" class="btn btn-warning" style="margin-left:15px;margin-bottom:20px;">En savoir plus</button>
+								</div>
+								<div class="col-lg-3 col-xs-12"><img  src="#" style="height:250px; width:250px; box-shadow: 0 0 0 5px #ea5c0d;" /></div>	
+								<div class="modal" id="5"> <!--fentre modal qui affiche le contenue de "En savoir plus"-->
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">x</button>
+												<h4 class="modal-title">Plus d'informations</h4>
+											</div>
+											<div class="modal-body">
+												En construction
+											</div>
+										</div>
+									 </div>
+								</div>
+								<hr>          
+							</div>
+						</div>
+					</div>
+				</div>        
+			</div>
+		</div>
+	</div>
+	
+
+	<div class="footer" id="footer" style="margin-top:50px;">
+        <div class="container">
+            <div class="row">
+			 <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6">
+                    <form class="form-horizontal">
+						<fieldset>
+							<h3><center>Contact</center><h3>
+							<div class="form-group">
+								<p class="col-md-2 control-label" for="textinput">Nom</p>  
+								<div class="col-md-8">
+									<input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">  
+								</div>
+							</div>
+							<div class="form-group">
+								<p class="col-md-2 control-label" for="textinput">Prenom</p>  
+								<div class="col-md-8">
+									<input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+								</div>
+							</div>
+							<div class="form-group">
+								<p class="col-md-2 control-label" for="textinput">Mail</p>  
+								<div class="col-md-8">
+									<input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+								</div>
+							</div>
+							<div class="form-group">
+								<p class="col-md-2 control-label" for="textarea">Texte</p>
+								<div class="col-md-8">                     
+									<textarea class="form-control" id="textarea" name="textarea"></textarea>
+								</div>
+							</div>
+							<div class="form-group">
+							<span class="col-md-2" for="singlebutton"></span>
+								<div class="col-md-4">
+									<button id="singlebutton" name="singlebutton" class="btn btn-warning" >Envoyer</button>
+							</div>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Nos partenaires </h3>
+                    <ul>
+                        <li> <a href="http://fr.unesco.org/"> UNESCO </a> </li>
+                        <li> <a href="#"> M.C.M </a> </li>
+                        <li> <a href="https://www.icomos.org/fr/"> ICOMOS </a> </li>
+                        <li> <a href="http://www.u-pem.fr/"> Paris EST Marne la vallé </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Voir aussi  </h3>
+                    <ul>
+                        <li> <a href="#"> Paris vue d'en haut </a> </li>
+                        <li> <a href="#"> Balade littéraire </a> </li>
+                        <li> <a href="#"> Lisbonnes </a> </li>
+                        <li> <a href="#"> Chipre </a> </li>
+                    </ul>
+                </div> 
+				<div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Mentions Légales </h3>
+                    <ul>
+                        <li> <a href="#"> Charte d'utilisation </a> </li>
+                        <li> <a href="#"> Droit a l'image </a> </li>
+						<li> <a href="#"> Coordonnés </a> </li>
+                    </ul>
+                </div>				
+            </div>
+        </div>
+    </div>
+ </body>
+ </html>

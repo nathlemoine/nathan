@@ -1,0 +1,18 @@
+h1{
+	font-family:Dyno; 
+	background-image:url("../photo/titre2.png");
+	background-repeat:no-repeat;
+	padding-bottom:25px;
+	padding-left:65px;
+	}
+	
+h4{
+	font-family:Dyno; 
+	background-image:url("../photo/sous_titre2.png");
+	background-repeat:no-repeat;
+	background-position: bottom left;
+	padding-top:0px;
+	padding-bottom:10px;
+	padding-left:10px;
+	color:#f7af3e;
+	}

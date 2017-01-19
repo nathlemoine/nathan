@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Ponts</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="..\Assets\bootstrap-3.3.7-dist\css\bootstrap.css" rel="stylesheet">
+	<link href="..\Assets\CSS\Ponts.css" rel="stylesheet">  
+	<link href="..\Assets\CSS\commun.css" rel="stylesheet"> 
+	<link rel="icon" type="image/png" href="../Assets/photo/miniature.png" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
+  </head>	
+
+ <body>
+<div class="container-fluid">	<!--responsivité de toute la page -->
+	<div class="row">
+		<nav class="navbar navbar-inverse"> <!-- classe  bootstrap pour le menu  -->
+			<div class="container-fluid">
+				<div class="navbar-header">	<!-- partie reponsive téléphone -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+					<a class="navbar-brand" href="Acceuil.html">Accueil</a>
+				</div> <!-- fin responsive -->
+				<div class="collapse navbar-collapse" id="myNavbar"> <!-- partie ecran d'ordinateur et tablette  -->
+					<ul class="nav navbar-nav">
+						<li> 
+							<a href="timeline1.html">Timeline de l'île</a>	
+						</li>
+						<li> 
+							<a href="#">Evenement</a>	
+						</li>
+						<li class="dropdown"> 
+							<a data-toggle="dropdown" href="#">L'architecture<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="Ponts.html">Les ponts</a></li>
+								<li><a href="Monument.html">Les monuments</a></li>
+								<li><a href="Quai.html">Les quais</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"> 
+							<a data-toggle="dropdown" href="#">Les balades<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Les itinéraires</a></li>
+								<li><a href="#">Les points intérréssants</a></li>
+								<li><a href="Galerie.html">Galerie</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"> 
+							<a data-toggle="dropdown" href="#">Infos Pratiques<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="Transport.html">Transport</a></li>
+								<li><a href="Nourriture.html">Se nourrir</a></li>
+								<li><a href="Logement.html">Se loger</a></li>
+								<li><a href="">Météo</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"> 
+							<a data-toggle="dropdown" href="#">A propos<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="partenaire.html">Nos partenaires</a></li>
+								<li><a href="equipe.html">Le projet & l'équipe</a></li>
+							</ul>
+						</li>
+					</ul>
+					<img src="../Assets/photo/logoMCN.png" class="logo">
+				</div> <!-- fin ecran -->
+			 </div>
+		</nav> <!-- fin bar de navigation  -->
+	</div>
+	<h1>Les Ponts de l'Île</h1>
+	<div class="row">
+		<div class="ordi">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " role="tabpanel"><!-- onglet "tabs" -->
+				<ul class="nav nav-justified " id="nav-tabs" role="tablist">
+					<li role="presentation" class="active">
+						<a href="#dustin" aria-controls="dustin" role="tab" data-toggle="tab">
+						<img class="img-circle custom" src="../Assets/Photo/Pont 1.jpg" />
+						</a>
+					</li>
+					<li role="presentation" class="">
+						<a href="#daksh" aria-controls="daksh" role="tab" data-toggle="tab">
+						<img class="img-circle" src="../Assets/Photo/Pont 2.jpg" /> pont 2                  
+						</a>	
+					</li>
+					<li role="presentation" class="">
+						<a href="#anna" aria-controls="anna" role="tab" data-toggle="tab">
+						<img class="img-circle" src="../Assets/Photo/Pont 3.jpg" />                           
+						</a>
+					</li>
+					<li role="presentation" class="">
+						<a href="#wafer" aria-controls="wafer" role="tab" data-toggle="tab">
+						<img class="img-circle" src="../Assets/Photo/Pont 4.jpg" />                           
+						</a>
+					</li>
+					<li role="presentation" class="">
+						<a href="#2" aria-controls="2" role="tab" data-toggle="tab">
+						<img class="img-circle" src="../Assets/Photo/Pont 1.jpg" />                           
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="portable">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " role="tabpanel"><!-- onglet "tabs" -->
+				<ul class="nav nav-justified inline" id="nav-tabs" role="tablist">
+					<li role="presentation" class="active">
+						<a href="#dustin" aria-controls="dustin" role="tab" data-toggle="tab">
+						Pont 1
+						</a>
+					</li>
+					<li role="presentation" class="">
+						<a href="#daksh" aria-controls="daksh" role="tab" data-toggle="tab">
+						Pont 2
+						</a>	
+					</li>
+					<li role="presentation" class="">
+						<a href="#anna" aria-controls="anna" role="tab" data-toggle="tab"> 
+						Pont 3						
+						</a>
+					</li>
+					<li role="presentation" class="">
+						<a href="#wafer" aria-controls="wafer" role="tab" data-toggle="tab">    
+						Pont 4
+						</a>
+					</li>
+					<li role="presentation" class="">
+						<a href="#2" aria-controls="2" role="tab" data-toggle="tab"> 
+						Pont 5	
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="responsive">
+		<div class="col-xs-12 col-xs-12"><!-- Contenue des onglet-->
+			<div class="tab-content" id="tabs-collapse">            
+				<div role="tabpanel" class="tab-pane fade in active" id="dustin">
+					<div class="tab-inner"> 												
+						<div class="col-lg-9 col-xs-12">
+							<h3>Le Pont Marie</h3><p class="lead">Le pont-Marie actuel, large de 22m, long de 100m, fut édifié par l’entrepreneur 
+							Christophe Marie (dont il perpétue le nom), entre 1614 et 1630. Louis XIII en posa la première pierre. Il comportait cinq arches de pierre en 
+							plein cintre. Au-dessus des avant-becs, quatre niches de pierre à l’amont et à l’aval étaient destinées à abriter des statues qui ne furent 
+							jamais placées. Monument classé</p>
+							<button data-toggle="modal" href="#pontMarie" class="btn btn-warning" style="margin-left:15px;margin-bottom:20px;">En savoir plus</button>
+						</div>
+						<div class="col-lg-3 col-xs-12"><img  src="../Assets/Photo/Pont 1.jpg" id="image" /></div>	
+						<div class="modal" id="pontMarie"> <!--fentre modal qui affiche le contenue de "En savoir plus"-->
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">x</button>
+										<h4 class="modal-title">Plus d'informations</h4>
+									</div>
+									<div class="modal-body">
+										Le pont-Marie actuel, large de 22m, long de 100m, fut édifié par l’entrepreneur 
+										Christophe Marie (dont il perpétue le nom), entre 1614 et 1630. Louis XIII en posa la première pierre. Il comportait cinq arches de pierre en 
+										plein cintre. Au-dessus des avant-becs, quatre niches de pierre à l’amont et à l’aval étaient destinées à abriter des statues qui ne furent 
+										jamais placées. Monument classé
+									</div>
+								</div>
+							 </div>
+						</div>
+						<hr>          
+					</div>
+				</div>
+					<div role="tabpanel" class="tab-pane fade in active" id="daksh">
+					   <div class="tab-inner">   					
+							<div class="col-lg-9 col-xs-12">
+								<h3>Pont Louis-Philippe</h3>
+								<p class="lead">Situé entre le quai de l'Hôtel-de-Ville et le quai de Bourbon dans l'Île Saint-Louis, ce pont en maçonnerie est large de 15m et long de 160m. 
+								Il a été construit en 1860-1861 par les ingénieurs Romany et Savarin. Il comporte trois arches elliptiques de 32m.</p>
+								<button data-toggle="modal" href="#infos2" class="btn btn-warning" style="margin-left:15px;margin-bottom:20px;">En savoir plus</button>
+							</div>
+							<div class="col-lg-3 col-xs-12"><img id="image" src="../Assets/Photo/test2.png" /></div>	
+									<div class="modal" id="infos2">
+								  <div class="modal-dialog">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">x</button>
+										<h4 class="modal-title">Plus d'informations</h4>
+									  </div>
+									  <div class="modal-body">
+										<p>Construction: 1860-1862</p> 
+										<p>Auteur: Anonyme puis Louis Philippe</p>
+										<p>Histoire:</p>
+										Situé entre le quai de l'Hôtel-de-Ville et le quai de Bourbon dans l'Île Saint-Louis, ce pont en maçonnerie est large de 15m et long de 160m. Il a été construit en 1860-1861 
+										par les ingénieurs Romany et Savarin. Il comporte trois arches elliptiques de 32m. Il a remplacé un pont suspendu établi sensiblement au même endroit par les frères Seguin 
+										en 1833. Le pont s’appuyait alors sur un portique central situé à l’extrémité sud de l'île saint-Louis. Il reliait directement la rive droite à la Cité et il aboutissait sur 
+										le quai aux Fleurs. Ouvrage Inscrit.
+										Source : documents Icomos 
+
+									  </div>
+									</div>
+								  </div>
+								</div>
+								<hr>          
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="anna">
+							<div class="tab-inner">						
+								<div class="col-lg-9 col-xs-12">
+								<h3>Pont de la Tournelle</h3>
+								<p class="lead">Le site du pont de la Tournelle a connu de nombreux ouvrages successifs pour franchir la Seine. Au Moyen  ge, il y existait un pont en bois, 
+								à moitié emporté par une inondation le 21 janvier 1651, qui fut reconstruit en pierre en 1656. Démoli en 1918, il fut remplacé par le pont actuel en 1928.</p></div>
+								<button data-toggle="modal" href="#infos3" class="btn btn-warning" style="margin-left:15px;margin-bottom:20px;">En savoir plus</button>
+								<div class="col-lg-3 col-xs-12"><img  src="../Assets/Photo/test2.png" id="image" /></div>
+								<div class="modal" id="infos3">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">x</button>
+												<h4 class="modal-title">Plus d'informations</h4>
+											</div>
+											<div class="modal-body">
+												<p>Construction:  1928-1930</p>
+												<p>Auteur:</p>
+												<p>Histoire:</p> 
+												Le site du pont de la Tournelle a connu de nombreux ouvrages successifs pour franchir la Seine. Au Moyen-Âge, il y existait un pont en bois, à moitié emporté par une
+												inondation le 21 janvier 1651, qui fut reconstruit en pierre en 1656. Démoli en 1918, il fut remplacé par le pont actuel en 1928.
+												Le terme de « Tournelle » provient de la présence en cet endroit au xiie siècle d'une tourelle de l'enceinte de Philippe Auguste remplacée par 
+												la suite par un petit château.
+												La porte Saint-Bernard se trouvait au Sud de ce château.
+												Le pont de la Tournelle,120m de long, 22m de large, a été construit en 1928.Il s’agit d’un pont en béton armé recouvert de pierre.
+												Le pont actuel est à l'emplacement d’ouvrages plus anciens. En 1369, une passerelle de bois reliait à cet endroit la rive gauche à l’ile Notre-Dame. 
+												En 1618-1620, l'entrepreneur Christophe Marie la reconstruisit pour favoriser les opérations de lotissement de l’ile. Le pont ne fut réalisé en pierre 
+												qu'en 1654-1656, puis modifié, il comportait six arches. Le pont actuel comprend une grande arche centrale surbaissée et deux arches latérales en plein cintre. 
+												Ouvrage non inscrit.
+												Source : documents Icomos 
+
+										</div>
+										</div>
+									</div>
+								</div>
+								<hr> 
+							</div> 
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="wafer">
+							<div class="tab-inner">						
+								<div class="col-lg-9 col-xs-12">
+								<h3>Le pont Sully</h3>
+								<p class="lead">Le pont, ou plus exactement les ponts Sully, car ce sont deux ponts autonomes qui mettent en communication le boulevard Henri IV et le boulevard Saint-Germain,
+								ont été construits en 1864-1866. Ces ponts métalliques réalisés par les ingénieurs Vaudrey et Brosselin comportent trois arches sur le grand bras - rive droite - un arche 
+								sur le petit bras.</p></div>
+								<button data-toggle="modal" href="#infos4" class="btn btn-warning" style="margin-left:15px;margin-bottom:20px;">En savoir plus</button>
+								<div class="col-lg-3 col-xs-12"><img  src="../Assets/Photo/test2.png" id="image"/></div>
+								<div class="modal" id="infos4">
+								  <div class="modal-dialog">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">x</button>
+										<h4 class="modal-title">Plus d'informations</h4>
+									  </div>
+									  <div class="modal-body">
+										Le pont, ou plus exactement les ponts Sully, car ce sont deux ponts autonomes qui mettent en communication le boulevard Henri IV et le boulevard Saint-Germain, 
+										ont été construits en 1864-1866. Ces ponts métalliques réalisés par les ingénieurs Vaudrey et Brosselin comportent trois arches sur le grand bras - rive droite - un arche 
+										sur le petit bras.
+										Avant la construction des pont Sully; il existait à l’amont de l'Île Saint-Louis deux passerelles : la passerelle de Damiette côté rive droite, 
+										la passerelle de Constantine côté rive gauche. Une passerelle pour piétons sur estacade en bois joignait la pointe amont de l'île au quai Henri IV. 
+										Plusieurs fois construite, elle ne disparut définitivement du paysage parisien qu’en 1933. Cette estacade souvent représentée par les peintres avait pour but de 
+										protéger de la dérive des glaces les bateaux garés en hiver au port des Célectins-Saint Paul, sur le petit bras de la Seine.
+										Le square qui occupe la pointe de l'île, et le terre-plein entre les deux ponts constituaient aux XVII° et XVIII° siècles une partie du jardin à la 
+										française de l’hôtel de Bretonvilliers, détruit en 1840. Ouvrage inscrit.
+										Source: documents Icomos
+
+									  </div>
+									</div>
+								  </div>
+								</div>
+								<hr> 
+							</div>
+						</div>
+						  <div role="tabpanel" class="tab-pane fade" id="2">
+							<div class="tab-inner">						
+								<div class="col-lg-9 col-xs-12">
+								<h3>Le Pont Saint-Louis</h3>
+								<p class="lead">Reliant l'île de la Cité à l'île Saint-Louis, le pont Saint-Louis a été reconstruit en 1970, en remplacement d’une passerelle provisoire installée en 1941. 
+								C’est un ouvrage en métal à une seule arche, sans qualités esthétiques.</p></div>
+								<button data-toggle="modal" href="#infos5" class="btn btn-warning" style="margin-left:15px;margin-bottom:20px;">En savoir plus</button>
+								<div class="col-lg-3 col-xs-12"><img  src="../Assets/Photo/test2.png" id="image"/></div>
+								<div class="modal" id="infos5">
+								  <div class="modal-dialog">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">x</button>
+										<h4 class="modal-title">Plus d'informations</h4>
+									  </div>
+									  <div class="modal-body">
+										
+										Reliant l'île de la Cité à l'île Saint-Louis, le pont Saint-Louis a été reconstruit en 1970, en remplacement d’une passerelle provisoire installée en 1941.
+										C’est un ouvrage en métal à une seule arche, sans qualités esthétiques.
+										Le premier pont reliant la Cité à l'Île Saint-Louis avait été construit au XVII° siècle, au moment où l'Île Saint-Louis commença à être habitée. 
+										C’était une passerelle de bois édifiée en 1627. Reconstruite en 1710, elle prit alors le nom de “pont Rouge” en raison de la peinture rouge minium dont elle était recouverte. 
+										Un nouveau pont fut construit au début de l’Empire.
+										En 1842, on remplace par un pont suspendu. en 1861, on construit un nouvel ouvrage métallique à une seule arche de 64m. Ouvrage non inscrit.
+									  </div>
+									</div>
+								  </div>
+								</div>
+								<hr> 
+							</div>
+						</div>
+					</div>
+				</div>        
+			</div>
+			</div>
+		</div>
+	
+
+	<div class="footer" id="footer" style="margin-top:50px;">
+        <div class="container">
+            <div class="row">
+			 <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6">
+                    <form class="form-horizontal">
+						<fieldset>
+							<h3><center>Contact</center><h3>
+							<div class="form-group">
+								<p class="col-md-2 control-label" for="textinput">Nom</p>  
+								<div class="col-md-8">
+									<input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">  
+								</div>
+							</div>
+							<div class="form-group">
+								<p class="col-md-2 control-label" for="textinput">Prenom</p>  
+								<div class="col-md-8">
+									<input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+								</div>
+							</div>
+							<div class="form-group">
+								<p class="col-md-2 control-label" for="textinput">Mail</p>  
+								<div class="col-md-8">
+									<input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+								</div>
+							</div>
+							<div class="form-group">
+								<p class="col-md-2 control-label" for="textarea">Texte</p>
+								<div class="col-md-8">                     
+									<textarea class="form-control" id="textarea" name="textarea"></textarea>
+								</div>
+							</div>
+							<div class="form-group">
+							<span class="col-md-2" for="singlebutton"></span>
+								<div class="col-md-4">
+									<button id="singlebutton" name="singlebutton" class="btn btn-warning" >Envoyer</button>
+							</div>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Nos partenaires </h3>
+                    <ul>
+                        <li> <a href="http://fr.unesco.org/"> UNESCO </a> </li>
+                        <li> <a href="#"> M.C.M </a> </li>
+                        <li> <a href="https://www.icomos.org/fr/"> ICOMOS </a> </li>
+                        <li> <a href="http://www.u-pem.fr/"> Paris EST Marne la vallé </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Voir aussi  </h3>
+                    <ul>
+                        <li> <a href="#"> Paris vue d'en haut </a> </li>
+                        <li> <a href="#"> Balade littéraire </a> </li>
+                        <li> <a href="#"> Lisbonnes </a> </li>
+                        <li> <a href="#"> Chipre </a> </li>
+                    </ul>
+                </div> 
+				<div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Mentions Légales </h3>
+                    <ul>
+                        <li> <a href="#"> Charte d'utilisation </a> </li>
+                        <li> <a href="#"> Droit a l'image </a> </li>
+						<li> <a href="#"> Coordonnés </a> </li>
+                    </ul>
+                </div>				
+            </div>
+        </div>
+    </div>
+ </body>
+ </html>
